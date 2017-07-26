@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="17e60266-6e98-4d3e-9b0b-4c5e5315bfed" name="114.80.193.24" url="http://www.lankesoft.com/test/">
+        <fileTransfer host="114.80.193.24" port="21" rootFolder="/wwwroot/test" username="lankesoftcom">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

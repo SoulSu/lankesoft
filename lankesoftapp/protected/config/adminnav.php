@@ -1,0 +1,155 @@
+<?php
+
+
+return <<<REGEXP
+[
+  {
+    "t": "工作台",
+    "url": "admin/page/desktop"
+  },
+  {
+    "t": "分类设置",
+    "url": "",
+    "child": [
+      {
+        "t": "文章分类",
+        "url": "admin/class/article"
+      },
+      {
+        "t": "客户分类",
+        "url": "class/user.html"
+      },
+      {
+        "t": "产品分类",
+        "url": "class/product.html"
+      },
+      {
+        "t": "演示分类",
+        "url": "class/demo.html"
+      },
+      {
+        "t": "问题分类",
+        "url": "class/question.html"
+      },
+      {
+        "t": "工程案例分类",
+        "url": "class/case.html"
+      },
+      {
+        "t": "资料分类",
+        "url": "class/profile.html"
+      }
+    ]
+  },
+  {
+    "t": "文章管理",
+    "url": "",
+    "child": [
+      {
+        "t": "文章列表",
+        "url": "article/list.html"
+      }
+    ]
+  },
+  {
+    "t": "用户管理",
+    "url": "",
+    "child": [
+      {
+        "t": "用户列表",
+        "url": "userManage/list.html"
+      }
+    ]
+  },
+  {
+    "t": "客户管理",
+    "url": "",
+    "child": [
+      {
+        "t": "客户列表",
+        "url": "clientManage/list.html"
+      }
+    ]
+  },
+  {
+    "t": "团队管理",
+    "url": "",
+    "child": [
+      {
+        "t": "团队成员列表",
+        "url": "team/list.html"
+      }
+    ]
+  },
+  {
+    "t": "解决方案",
+    "url": "",
+    "child": [
+      {
+        "t": "方案列表",
+        "url": "solution/list.html"
+      }
+    ]
+  },
+  {
+    "t": "产品管理",
+    "url": "",
+    "child": [
+      {
+        "t": "产品列表",
+        "url": "product/list.html"
+      }
+    ]
+  },
+  {
+    "t": "产品演示",
+    "url": "",
+    "child": [
+      {
+        "t": "产品演示列表",
+        "url": "product-demo/list.html"
+      }
+    ]
+  },
+  {
+    "t": "常见问题管理",
+    "url": "",
+    "child": [
+      {
+        "t": "常见问题列表",
+        "url": "question/list.html"
+      }
+    ]
+  },
+  {
+    "t": "工程案例管理",
+    "url": "",
+    "child": [
+      {
+        "t": "工程案例列表",
+        "url": "projectcase/list.html"
+      }
+    ]
+  },
+  {
+    "t": "资料下载管理",
+    "url": "",
+    "child": [
+      {
+        "t": "资料列表",
+        "url": "profile-download/list.html"
+      }
+    ]
+  },
+  {
+    "t": "蓝科生活相册",
+    "url": "",
+    "child": [
+      {
+        "t": "相册列表",
+        "url": "life/list.html"
+      }
+    ]
+  }
+]
+REGEXP;
