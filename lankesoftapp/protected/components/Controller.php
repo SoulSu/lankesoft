@@ -52,6 +52,18 @@ class Controller extends CController
     }
 
 
+    public function actions()
+    {
+        return array(
+            'captcha' => array(
+                'class' => 'CCaptchaAction',
+                'backColor' => 0xFFFFFF,  //背景颜色
+                'minLength' => 4,  //最短为4位
+                'maxLength' => 4,   //是长为4位
+                'transparent' => true,  //显示为透明
+            ),
+        );
+    }
 
     public function renderJson()
     {

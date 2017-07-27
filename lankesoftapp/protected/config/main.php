@@ -84,4 +84,5 @@ return array(
 	),
 
     'language' => 'zh_cn',
+    'timeZone'=>'Asia/Chongqing',
 );

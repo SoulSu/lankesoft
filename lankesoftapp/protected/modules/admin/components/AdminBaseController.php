@@ -27,6 +27,7 @@ class AdminBaseController extends Controller
     public function init()
     {
         parent::init();
+        user()->loginUrl = '/admin/login';
     }
 
     public function actionList()

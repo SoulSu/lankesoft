@@ -6,12 +6,12 @@ CREATE TABLE admin (
     salt VARCHAR(128) NOT NULL COMMENT '密码盐值',
     last_login_ip VARCHAR(32) NOT NULL DEFAULT '' COMMENT '最后登录ip 地址',
     mtime INT(12) NOT NULL DEFAULT 0,
-    ctime INT(12) NOT NULL DEFAULT 0
-);
+    ctime INT(12) NOT NULL DEFAULT 0,
+    UNIQUE (username)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-
-INSERT INTO admin (username, password) VALUES ('admin', MD5('admin'));
-
+-- 初始化管理员账号
+INSERT INTO admin(id, username, password, salt, last_login_ip, mtime, ctime) VALUES (1, 'admin', '7da662894de55656092233800f47c57f', 'MDI5OWE4MjNmOTJiMmU3ZDE3Yjg1OGU2MzZlMTE0ZDY=', '127.0.0.1', 1501168232, 1501168232);
 
 
 CREATE TABLE `product` (

@@ -31,7 +31,7 @@
     <div class="logow animated fadeInLeft"><a href="#"><img src="../logo.png" width="56"></a></div>
     <div class="right_side">
         <!--<span class="fullScreen_btn"><i class="fa fa-arrows-alt"></i></span>-->
-        <span class="logout_btn J_confirm_modal" data-target="../server/logout.json" data-tip="确认退出吗？"><i class="fa fa-sign-out"></i></span>
+        <span class="logout_btn J_confirm_modal" data-target="admin/logout" data-tip="确认退出吗？"><i class="fa fa-sign-out"></i></span>
         <span class="toggleMenu_btn"><i class="fa fa-bars"></i></span>
     </div>
 </header>
@@ -40,11 +40,11 @@
             <span>
                 <div>
                     <a href="#" data-toggle="dropdown">
-                        <i class="fa fa-user"></i><span class="name">admin</span><span class="caret"></span>
+                        <i class="fa fa-user"></i><span class="name"><?php echo user()->getName()?></span><span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a tabindex="-1" href="#">个人资料</a></li>
-                        <li><a tabindex="-1" href="#" class="J_confirm_modal" data-target="../server/logout.json" data-tip="确认退出吗？">退出</a></li>
+                        <li><a tabindex="-1" href="#<?php echo user()->getId();?>">个人资料</a></li>
+                        <li><a tabindex="-1" href="#" class="J_confirm_modal" data-target="admin/logout" data-tip="确认退出吗？">退出</a></li>
                     </ul>
                 </div>
             </span>

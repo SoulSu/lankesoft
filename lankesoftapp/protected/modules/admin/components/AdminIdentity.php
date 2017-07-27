@@ -22,7 +22,7 @@ class AdminIdentity extends CUserIdentity
     {
         $username = $this->username;
 
-        $user = Admin::model()->find('username=?', array($username));
+        $user = Admin::model()->find('`username` = ?', array($username));
 
         if ($user === null) {
             $this->errorCode = self::ERROR_USERNAME_INVALID;
@@ -31,10 +31,17 @@ class AdminIdentity extends CUserIdentity
         else {
             $this->_id = $user->id;
             $this->username = $user->username;
+            $this->setState('admin', $user);
             $this->errorCode = self::ERROR_NONE;
         }
 
         return $this->errorCode == self::ERROR_NONE;
+    }
+
+
+    public function getId()
+    {
+        return $this->_id;
     }
 
 

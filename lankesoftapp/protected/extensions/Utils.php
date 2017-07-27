@@ -37,8 +37,10 @@ abstract class Utils
      */
     public static function genPassword($registerPassword = '', $salt = '')
     {
-        return sha1($salt . $registerPassword . $salt);
+        return md5($salt . $registerPassword . $salt);
     }
+
+
 
 
 }

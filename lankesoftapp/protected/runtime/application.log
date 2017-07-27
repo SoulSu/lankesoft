@@ -53,3 +53,223 @@ in E:\vagrant_data\php\lankesoft\lankesoftapp\index.php (18)
 in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
 in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
 in E:\vagrant_data\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 16:10:30 [info] [/index.php/admin/login] {"username":"1","verificationCode":"3","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 16:18:16 [info] [/index.php/admin/login] {"username":"1","verificationCode":"3","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 16:44:08 [info] [/admin/login] {"username":"admin","verificationCode":"123","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 16:52:57 [info] [/admin/login] {"username":"admin","verificationCode":"goie","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 16:54:03 [info] [/admin/login] {"username":"admin","verificationCode":"goje","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 16:55:56 [info] [/admin/login] {"username":"admin","verificationCode":"xewo","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 16:56:27 [info] [/admin/login] {"username":"admin","verificationCode":"vsde","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:00:44 [info] [/admin/login] {"username":"admin","verificationCode":"vsde","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:02:18 [info] [/admin/login] {"username":"admin","verificationCode":"vsde","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:02:40 [info] [/admin/login] {"username":"admin","verificationCode":"vsde","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:03:07 [info] [/admin/login] {"username":"admin","verificationCode":"loli","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:06:33 [info] [/admin/login] {"username":"admin","verificationCode":"loli","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:09:45 [info] [/admin/login] {"username":"admin","verificationCode":"siqe","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:11:40 [info] [/admin/login] {"username":"admin","verificationCode":"duzo","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:12:11 [info] [/admin/login] {"username":"admin","verificationCode":"zimu","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:12:15 [info] [/admin/login] {"username":"admin","verificationCode":"pamu","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:12:28 [info] [/admin/login] {"username":"admin","verificationCode":"pamu","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:12:33 [info] [/admin/login] {"username":"admin","verificationCode":"pamu","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:12:43 [info] [/admin/login] {"username":"admin","verificationCode":"pamu","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:12:50 [info] [/admin/login] {"username":"admin","verificationCode":"pamu","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:15:35 [info] [/admin/login] {"username":"admin","verificationCode":"qoan","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:28:03 [info] [/admin/login] {"username":"admin","verificationCode":"qoja","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:28:33 [info] [/admin/login] {"username":"admin","verificationCode":"wopu","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:28:37 [info] [/admin/login] {"username":"admin","verificationCode":"ph","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:28:42 [info] [/admin/login] {"username":"admin1","verificationCode":"phee","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:30:47 [info] [/admin/login] {"username":"admin1","verificationCode":"phee","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:30:52 [info] [/admin/login] {"username":"admin","verificationCode":"puju","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:37:59 [info] [/admin/login] {"username":"admin","verificationCode":"xahu","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:39:13 [info] [/admin/login] {"username":"admin","verificationCode":"yksa","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:40:03 [info] [/admin/login] {"username":"admin","verificationCode":"yksa","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:41:26 [info] [/admin/login] {"username":"admin","verificationCode":"myhy","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:42:06 [info] [/admin/login] {"username":"admin","verificationCode":"xevi","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:43:26 [info] [/admin/login] {"username":"admin","verificationCode":"jepi","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:44:39 [info] [/admin/login] {"username":"admin","verificationCode":"syjp","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:45:51 [info] [/admin/login] {"username":"admin","verificationCode":"gnei","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:47:19 [info] [/admin/login] {"username":"admin","verificationCode":"zzde","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:47:23 [info] [/admin/login] {"username":"admin","verificationCode":"hoei","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:47:28 [info] [/admin/login] {"updateerr":[]}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (196)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:48:38 [info] [/admin/login] {"username":"admin","verificationCode":"hoei","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:48:43 [info] [/admin/login] {"updateerr":[]}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (196)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:53:55 [info] [/admin/login] {"username":"admin","verificationCode":"hoei","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (184)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:54:01 [info] [/admin/login] {"updateerr":[]}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (199)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:57:28 [info] [/admin/login] {"username":"admin","verificationCode":"hoei","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (184)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 17:57:44 [info] [/admin/login] {"updateerr":[]}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (199)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 18:01:12 [info] [/admin/login] {"username":"admin","verificationCode":"lpze","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (184)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 18:01:16 [info] [/admin/login] {"username":"admin","verificationCode":"oupa","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (184)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 18:01:20 [info] [/admin/login] {"username":"admin","verificationCode":"oupa","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (184)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 18:01:24 [info] [/admin/login] {"updateerr":[]}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (199)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 18:01:36 [info] [/admin/login] {"updateerr":[]}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (199)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 18:02:54 [info] [/admin/login] {"updateerr":[]}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (199)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 18:04:21 [info] [/admin/login] {"updateerr":[]}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (193)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 18:08:26 [info] [/admin/login] {"username":"admin","verificationCode":"sipa","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (178)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 18:08:30 [info] [/admin/login] {"username":"admin","verificationCode":"sipa","0":"login err"}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (178)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 18:08:35 [info] [/admin/login] {"updateerr":[]}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (193)
+in F:\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/28 00:12:49 [info] [/admin/login] {"updateerr":[]}
+in F:\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (193)
+in F:\php\lankesoft\lankesoftapp\index.php (18)

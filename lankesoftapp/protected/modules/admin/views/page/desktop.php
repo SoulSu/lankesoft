@@ -14,7 +14,7 @@
 <!--                                    </div>-->
                                     <div class="my_panel">
                                         <div class="heading">欢迎信息</div>
-                                        <div class="body">您好：admin！您上一次登录时间：2016-09-29 13:07，登录IP：127.0.0.1</div>
+                                        <div class="body">您好：<?php echo user()->getName();?>！您上一次登录时间：<?php echo date('Y-m-d H:i:s',user()->getState('admin')->mtime)?>，登录IP：<?php echo user()->getState('admin')->last_login_ip;?></div>
                                     </div>
                                     <div class="my_panel">
                                         <div class="heading">系统信息</div>

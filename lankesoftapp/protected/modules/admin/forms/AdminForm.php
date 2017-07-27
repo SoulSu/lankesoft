@@ -16,17 +16,7 @@ class AdminForm extends CFormModel
     {
         return array(
             array('username, password, verificationCode', 'required'),
-            array('verificationCode', 'checkVerificationCode'),
+            array('verificationCode', 'captcha'), // 校验验证码
         );
-    }
-
-    /**
-     * 效验验证码
-     */
-    public function checkVerificationCode($attribute,$params)
-    {
-        if(session()->get(self::SESSION_VERIFICATIONCODE) !== $this->verificationCode){
-            $this->addError($attribute,'验证码错误~');
-        }
     }
 }

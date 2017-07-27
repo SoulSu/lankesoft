@@ -23,11 +23,11 @@ class SiteController extends AdminBaseController
     {
         return array(
             array('allow',  // allow all users to perform 'index' and 'view' actions
-                'actions' => array('login'),
+                'actions' => array('login', 'captcha'),
                 'users' => array('*'),
             ),
             array('allow', // allow authenticated user to perform 'create' and 'update' actions
-                'actions' => array('index', 'nav', 'create', 'update'),
+                'actions' => array('index', 'nav', 'create', 'update', 'logout'),
                 'users' => array('@'),
             ),
             array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -40,127 +40,13 @@ class SiteController extends AdminBaseController
         );
     }
 
-    /**
-     * Displays a particular model.
-     * @param integer $id the ID of the model to be displayed
-     */
-    public function actionView($id)
-    {
-        $this->render('view', array(
-            'model' => $this->loadModel($id),
-        ));
-    }
-
-    /**
-     * Creates a new model.
-     * If creation is successful, the browser will be redirected to the 'view' page.
-     */
-    public function actionCreate()
-    {
-        $model = new Admin;
-
-        // Uncomment the following line if AJAX validation is needed
-        // $this->performAjaxValidation($model);
-
-        if (isset($_POST['Admin'])) {
-            $model->attributes = $_POST['Admin'];
-            if ($model->save())
-                $this->redirect(array('view', 'id' => $model->id));
-        }
-
-        $this->render('create', array(
-            'model' => $model,
-        ));
-    }
-
-    /**
-     * Updates a particular model.
-     * If update is successful, the browser will be redirected to the 'view' page.
-     * @param integer $id the ID of the model to be updated
-     */
-    public function actionUpdate($id)
-    {
-        $model = $this->loadModel($id);
-
-        // Uncomment the following line if AJAX validation is needed
-        // $this->performAjaxValidation($model);
-
-        if (isset($_POST['Admin'])) {
-            $model->attributes = $_POST['Admin'];
-            if ($model->save())
-                $this->redirect(array('view', 'id' => $model->id));
-        }
-
-        $this->render('update', array(
-            'model' => $model,
-        ));
-    }
-
-    /**
-     * Deletes a particular model.
-     * If deletion is successful, the browser will be redirected to the 'admin' page.
-     * @param integer $id the ID of the model to be deleted
-     */
-    public function actionDelete($id)
-    {
-        $this->loadModel($id)->delete();
-
-        // if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
-        if (!isset($_GET['ajax']))
-            $this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
-    }
 
     /**
      * Lists all models.
      */
     public function actionIndex()
     {
-        $dataProvider = new CActiveDataProvider('Admin');
-        $this->render('index', array(
-            'dataProvider' => $dataProvider,
-        ));
-    }
-
-    /**
-     * Manages all models.
-     */
-    public function actionAdmin()
-    {
-        $model = new Admin('search');
-        $model->unsetAttributes();  // clear any default values
-        if (isset($_GET['Admin']))
-            $model->attributes = $_GET['Admin'];
-
-        $this->render('admin', array(
-            'model' => $model,
-        ));
-    }
-
-    /**
-     * Returns the data model based on the primary key given in the GET variable.
-     * If the data model is not found, an HTTP exception will be raised.
-     * @param integer $id the ID of the model to be loaded
-     * @return Admin the loaded model
-     * @throws CHttpException
-     */
-    public function loadModel($id)
-    {
-        $model = Admin::model()->findByPk($id);
-        if ($model === null)
-            throw new CHttpException(404, 'The requested page does not exist.');
-        return $model;
-    }
-
-    /**
-     * Performs the AJAX validation.
-     * @param Admin $model the model to be validated
-     */
-    protected function performAjaxValidation($model)
-    {
-        if (isset($_POST['ajax']) && $_POST['ajax'] === 'admin-form') {
-            echo CActiveForm::validate($model);
-            Yii::app()->end();
-        }
+        $this->render('index');
     }
 
     /**
@@ -177,17 +63,45 @@ class SiteController extends AdminBaseController
 
             $adminForm->setAttributes(compact('username', 'password', 'verificationCode'));
 
-            if (!$adminForm->validate()){
+            if (!$adminForm->validate()) {
                 yiilog(compact('username', 'verificationCode') + array('login err'));
-                $this->render('login', array('model' => $adminForm));
+                return $this->render('login', array('model' => $adminForm));
             }
 
             $identity = new AdminIdentity($username, $password);
+            if (!$identity->authenticate()) {
+                $adminForm->addError('username', '用户名或密码错误');
+                return $this->render('login', array('model' => $adminForm));
+            }
+            // 写入登录信息
+            Yii::app()->user->login($identity);
 
+            // 更新登录记录
+            $oldAdmin = Admin::model()->findByPk(user()->getId());
+            if ($oldAdmin->save()) {
+                yiilog(array('updateerr' => $oldAdmin->getErrors()));
+            }
+
+            return $this->redirect('/admin');
 
         } else {
-            $this->render('login', array('model' => $adminForm));
+            return $this->render('login', array('model' => $adminForm));
         }
+    }
+
+    /**
+     * 登出
+     */
+    public function actionLogout()
+    {
+        user()->logout(true);
+        $ret = array(
+            'referer' => $this->createUrl('/admin/login'),
+            'refresh' => false,
+            'state' => 'success',
+            'message' => '提交成功',
+        );
+        return $this->renderText(json_encode($ret));
     }
 
     /**
@@ -197,5 +111,4 @@ class SiteController extends AdminBaseController
     {
         echo Yii::app()->params['adminConfig']['webnav'];
     }
-
 }
