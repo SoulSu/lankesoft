@@ -21,4 +21,24 @@ abstract class Utils
         $msg = sprintf("%s : %s => %s", PROCID, $msg, json_encode($data));
         Yii::log($msg, CLogger::LEVEL_INFO, $category);
     }
+
+    /**
+     * @return string
+     */
+    public static function genSalt()
+    {
+        return base64_encode(md5(uniqid('salt', true)));
+    }
+
+    /**
+     * @param string $registerPassword
+     * @param string $salt
+     * @return string
+     */
+    public static function genPassword($registerPassword = '', $salt = '')
+    {
+        return sha1($salt . $registerPassword . $salt);
+    }
+
+
 }

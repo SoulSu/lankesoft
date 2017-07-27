@@ -11,7 +11,8 @@ defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',3);
 
 // 一些个性化定义
 define('NOW', time());
-define('PROCID', uniqid());
+define('PROCID', uniqid('lanke', true));
+define('PROJECT_ROOT_PATH', dirname(__FILE__));
 
 require_once($yii);
 Yii::createWebApplication($config)->run();

@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: soul
- * Date: 2017/7/27 0027
- * Time: 0:00
- */
 class ClassController extends AdminBaseController
 {
 
@@ -13,4 +7,10 @@ class ClassController extends AdminBaseController
     {
         $this->render('article');
     }
+
+    public function actionAdd()
+    {
+        $this->render('add');
+    }
+
 }

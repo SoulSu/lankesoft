@@ -7,6 +7,10 @@
  * @property integer $id
  * @property string $username
  * @property string $password
+ * @property string $salt
+ * @property string $last_login_ip
+ * @property integer $mtime
+ * @property integer $ctime
  */
 class Admin extends CActiveRecord
 {
@@ -26,11 +30,11 @@ class Admin extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('username, password', 'required'),
-			array('username, password', 'length', 'max'=>32),
+			array('username, password, salt', 'required'),
+			array('mtime, ctime', 'numerical', 'integerOnly'=>true),
+			array('username, password, last_login_ip', 'length', 'max'=>32),
+			array('salt', 'length', 'max'=>128),
 			// The following rule is used by search().
-			// @todo Please remove those attributes that should not be searched.
-			array('id, username, password', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -52,8 +56,12 @@ class Admin extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'username' => 'Username',
-			'password' => 'Password',
+			'username' => '登录用户名',
+			'password' => '登录密码',
+			'salt' => '密码盐值',
+			'last_login_ip' => '最后登录ip 地址',
+			'mtime' => 'Mtime',
+			'ctime' => 'Ctime',
 		);
 	}
 
@@ -78,6 +86,10 @@ class Admin extends CActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('username',$this->username,true);
 		$criteria->compare('password',$this->password,true);
+		$criteria->compare('salt',$this->salt,true);
+		$criteria->compare('last_login_ip',$this->last_login_ip,true);
+		$criteria->compare('mtime',$this->mtime);
+		$criteria->compare('ctime',$this->ctime);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -94,4 +106,24 @@ class Admin extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+    /**
+     * 验证密码
+     * @param $password
+     * @return bool
+     */
+    public function validatePassword($password)
+    {
+        return $this->hashPassword($password, $this->salt) === $this->password;
+    }
+
+    /**
+     * @param $password
+     * @param $salt
+     * @return string
+     */
+    public function hashPassword($password, $salt)
+    {
+        return Utils::genPassword($password, $salt);
+    }
 }

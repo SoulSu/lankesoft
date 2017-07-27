@@ -29,5 +29,15 @@ class AdminBaseController extends Controller
         parent::init();
     }
 
+    public function actionList()
+    {
+        $this->render('list');
+    }
+
+    public function actionAdd()
+    {
+        $this->render('add');
+    }
+
 
 }

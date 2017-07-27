@@ -5,3 +5,51 @@ in F:\php\lankesoft\lankesoftapp\index.php (17)
 2017/07/26 17:08:03 [info] [a.b] 111111111111111
 in F:\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\DefaultController.php (9)
 in F:\php\lankesoft\lankesoftapp\index.php (17)
+2017/07/27 11:27:05 [info] [/admin/login] login err
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\extensions\functions.php (32)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (180)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 11:47:39 [info] [/admin/login] login err
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\extensions\functions.php (32)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (180)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 12:15:00 [info] [/admin/login] login err
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (180)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 12:15:14 [info] [/admin/login] login err
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (180)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 12:15:32 [info] [/admin/login] login err
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (180)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 12:17:04 [info] [/admin/login] login err
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (180)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 12:17:19 [info] [/admin/login] login err
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (180)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 12:17:57 [info] [/admin/login] {"username":"3","password":"3","verificationCode":"4"}
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (180)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 12:19:00 [info] [/admin/login] {"username":"2","verificationCode":"43","0":"login err"}
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (180)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 12:26:41 [info] [/admin/login] {"username":"45","verificationCode":"4564","0":"login err"}
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 12:31:54 [info] [/admin/login] {"username":"45","verificationCode":"4564","0":"login err"}
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\index.php (18)
+2017/07/27 12:32:07 [info] [/admin/login] {"username":"45","verificationCode":"1231","0":"login err"}
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\extensions\functions.php (33)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\protected\modules\admin\controllers\SiteController.php (181)
+in E:\vagrant_data\php\lankesoft\lankesoftapp\index.php (18)

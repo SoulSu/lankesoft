@@ -13,7 +13,8 @@
                         <div class="row">
                                 <div class="col-sm-12">
                                     <div class="btn-group" style="margin-bottom:20px;">
-                                        <a class="btn btn-default" href="#class/add.html"><i class="fa fa-file-o"></i>添加分类</a>
+                                        <a class="btn btn-default" href="#admin/class/add"><i class="fa
+                                        fa-file-o"></i>添加分类</a>
                                     </div>
                                 </div>
                           </div>

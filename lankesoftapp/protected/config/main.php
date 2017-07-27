@@ -1,5 +1,8 @@
 <?php
 
+// 自定义函数
+require_once PROJECT_ROOT_PATH . '/protected/extensions/functions.php';
+
 // uncomment the following to define a path alias
 // Yii::setPathOfAlias('local','path/to/local-folder');
 
@@ -15,9 +18,10 @@ return array(
 	// autoloading model and component classes
 	'import'=>array(
 		'application.models.*',
-		'application.components.*',
-		'application.components.process.*',
-	),
+        'application.components.*',
+        'application.components.process.*',
+        'application.extensions.*',
+    ),
 
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
@@ -78,4 +82,6 @@ return array(
             'webnav' => require(dirname(__FILE__).'/adminnav.php'),
         ),
 	),
+
+    'language' => 'zh_cn',
 );

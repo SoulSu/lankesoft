@@ -107,7 +107,7 @@ return <<<REGEXP
     "child": [
       {
         "t": "产品演示列表",
-        "url": "product-demo/list.html"
+        "url": "productdemo/list.html"
       }
     ]
   },
@@ -137,7 +137,7 @@ return <<<REGEXP
     "child": [
       {
         "t": "资料列表",
-        "url": "profile-download/list.html"
+        "url": "profiledownload/list.html"
       }
     ]
   },

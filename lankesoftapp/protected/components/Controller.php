@@ -28,11 +28,18 @@ class Controller extends CController
      */
     public $jsonData;
 
+    /**
+     * @var CHttpRequest
+     */
+    public $request = null;
+
 
     public function init()
     {
         parent::init();
         header("Content-Type:text/html; charset=UTF-8");
+
+        $this->request=YiiBase::app()->getRequest();
 
         $this->jsonData = new JsonResponse();
         $this->jsonData->setCode(0);
