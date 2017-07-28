@@ -2,1143 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33e97233-dce6-451f-9404-b683a2f84028" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CHANGELOG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/UPGRADE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/.appconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/index-test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/components/Controller.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/components/UserIdentity.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/components/process/JsonResponse.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/config/adminnav.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/config/console.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/config/database.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/config/main.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/config/route.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/config/test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/controllers/AdminController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/controllers/SiteController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/data/lanke.mysql.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/data/schema.mysql.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/data/schema.sqlite.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/data/testdrive.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/extensions/Utils.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/extensions/functions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/models/ContactForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/models/LoginForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/AdminModule.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/components/AdminBaseController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/components/AdminIdentity.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/controllers/ClassController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/controllers/ClientManageController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/controllers/CommController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/controllers/LifeController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/controllers/PageController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/controllers/ProductController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/controllers/ProductdemoController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/controllers/ProfiledownloadController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/controllers/ProjectcaseController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/controllers/QuestionController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/controllers/SiteController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/controllers/SolutionController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/controllers/TeamController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/controllers/UserManageController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/forms/AdminForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/models/Admin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/models/Product.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/models/ProductDemo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/models/Question.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/route/admin-route.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/class/add.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/class/article.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/class/case.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/class/demo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/class/product.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/class/profile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/class/question.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/class/user.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/clientManage/add.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/clientManage/list.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/layouts/empty.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/life/add.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/life/list.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/page/desktop.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/product/add.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/product/list.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/productdemo/add.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/productdemo/list.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/profiledownload/add.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/profiledownload/list.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/projectcase/add.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/projectcase/list.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/question/add.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/question/list.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/site/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/site/login.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/solution/add.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/solution/list.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/team/add.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/team/list.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/userManage/add.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/userManage/list.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/runtime/application.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/runtime/gii-1.1.18/CrudCode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/runtime/gii-1.1.18/FormCode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/runtime/gii-1.1.18/ModelCode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/runtime/gii-1.1.18/ModuleCode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/tests/WebTestCase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/tests/bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/tests/functional/SiteTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/tests/phpunit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/views/layouts/column1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/views/layouts/column2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/views/layouts/main.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/views/site/contact.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/views/site/error.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/views/site/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/views/site/login.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/views/site/pages/about.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/yiic" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/yiic.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/protected/yiic.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/basic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/Animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/dist/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/dist/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/dist/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/dist/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/.csscomb.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/.csslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/badges.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/bootstrap.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/breadcrumbs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/button-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/carousel.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/close.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/code.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/component-animations.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/dropdowns.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/forms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/glyphicons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/input-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/jumbotron.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/labels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/media.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/background-variant.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/border-radius.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/center-block.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/clearfix.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/forms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/gradients.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/grid-framework.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/hide-text.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/image.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/labels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/nav-divider.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/nav-vertical-align.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/opacity.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/panels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/progress-bar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/reset-filter.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/reset-text.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/resize.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/responsive-visibility.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/size.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/tab-focus.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/table-row.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/text-emphasis.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/text-overflow.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/mixins/vendor-prefixes.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/modals.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/navs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/normalize.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/pager.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/panels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/popovers.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/print.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/progress-bars.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/responsive-embed.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/responsive-utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/scaffolding.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/tables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/theme.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/thumbnails.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/tooltip.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/type.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/bootstrap/less/wells.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/font_awesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/font_awesome/css/font-awesome.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/font_awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/font_awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/font_awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/font_awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/font_awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/font_awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/css/vendor/font_awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/images/12906920069232.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/images/code.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/images/icon_list.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/ajaxForm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/basic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/Chinese.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/css/dataTables.bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/css/dataTables.bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/css/dataTables.bootstrap4.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/css/dataTables.bootstrap4.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/css/dataTables.foundation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/css/dataTables.foundation.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/css/dataTables.jqueryui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/css/dataTables.jqueryui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/css/dataTables.material.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/css/dataTables.material.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/css/dataTables.semanticui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/css/dataTables.semanticui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/css/dataTables.uikit.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/css/dataTables.uikit.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/css/jquery.dataTables.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/css/jquery.dataTables.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/css/jquery.dataTables_themeroller.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/images/Sorting icons.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/images/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/images/sort_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/images/sort_asc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/images/sort_both.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/images/sort_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/images/sort_desc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/js/dataTables.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/js/dataTables.bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/js/dataTables.bootstrap4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/js/dataTables.bootstrap4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/js/dataTables.foundation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/js/dataTables.foundation.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/js/dataTables.jqueryui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/js/dataTables.jqueryui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/js/dataTables.material.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/js/dataTables.material.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/js/dataTables.semanticui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/js/dataTables.semanticui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/js/dataTables.uikit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/js/dataTables.uikit.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/js/jquery.dataTables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/js/jquery.dataTables.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/DataTables/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Eonasdan_bootstrap-datetimepicker/css/bootstrap-datetimepicker-standalone.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Eonasdan_bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Eonasdan_bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Eonasdan_bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/MIT-LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/css/Jcrop.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/css/jquery.Jcrop.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/css/jquery.Jcrop.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/demos/crop.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/demos/demo_files/demos.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/demos/demo_files/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/demos/demo_files/pool.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/demos/demo_files/sago.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/demos/demo_files/sagomod.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/demos/demo_files/sagomod.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/demos/non-image.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/demos/styling.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/demos/tutorial1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/demos/tutorial2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/demos/tutorial3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/demos/tutorial4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/demos/tutorial5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/js/jquery.Jcrop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/js/jquery.Jcrop.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/js/jquery.color.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/Jcrop/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/css/bootstrap-datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/css/bootstrap-datepicker.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/css/bootstrap-datepicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/css/bootstrap-datepicker.standalone.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ar-tn.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.az.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.bg.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.br.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.bs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ca.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.cs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.cy.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.da.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.de.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.el.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-AU.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-IE.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-NZ.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-ZA.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.eo.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.et.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.eu.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fa.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fi.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fo.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fr-CH.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.gl.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.he.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.hr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.hu.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.hy.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.id.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.is.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.it-CH.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.it.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ja.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ka.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.kh.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.kk.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.km.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ko.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.kr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.lt.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.lv.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.me.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.mk.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.mn.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ms.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.nb.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.nl.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.no.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.oc.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.pl.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.pt.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ro.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.rs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.si.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sk.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sl.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sq.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sr-latin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sv.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sw.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.th.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.tr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.uk.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.vi.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap/dist/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap/dist/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap/dist/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap/src/affix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap/src/alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap/src/button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap/src/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap/src/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap/src/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap/src/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap/src/popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap/src/scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap/src/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap/src/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/bootstrap/src/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/catpl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/html5shiv.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/ie10-viewport-bug-workaround.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/changelog.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/kindeditor-all-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/kindeditor-all-min.js.bak" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/kindeditor-all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/kindeditor-all.js.bak" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/lang/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/lang/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/lang/ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/lang/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/lang/zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/lang/zh-TW.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/anchor/anchor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/autoheight/autoheight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/baidumap/baidumap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/baidumap/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/baidumap/map.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/clearhtml/clearhtml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/code/code.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/code/prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/code/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/emoticons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/10.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/100.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/101.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/102.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/103.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/104.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/105.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/106.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/107.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/108.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/109.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/11.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/110.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/111.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/112.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/113.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/114.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/115.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/116.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/117.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/118.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/119.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/12.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/120.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/121.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/122.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/123.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/124.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/125.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/126.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/127.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/128.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/129.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/13.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/130.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/131.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/132.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/133.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/134.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/14.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/15.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/16.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/17.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/18.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/19.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/20.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/21.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/22.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/23.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/24.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/25.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/26.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/27.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/28.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/29.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/3.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/30.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/31.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/32.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/33.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/34.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/35.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/36.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/37.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/38.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/39.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/4.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/40.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/41.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/42.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/43.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/44.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/45.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/46.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/47.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/48.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/49.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/5.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/50.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/51.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/52.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/53.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/54.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/55.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/56.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/57.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/58.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/59.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/6.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/60.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/61.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/62.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/63.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/64.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/65.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/66.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/67.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/68.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/69.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/7.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/70.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/71.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/72.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/73.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/74.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/75.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/76.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/77.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/78.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/79.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/8.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/80.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/81.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/82.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/83.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/84.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/85.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/86.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/87.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/88.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/89.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/9.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/90.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/91.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/92.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/93.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/94.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/95.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/96.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/97.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/98.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/99.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/emoticons/images/static.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/filemanager/filemanager.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/filemanager/images/file-16.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/filemanager/images/file-64.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/filemanager/images/folder-16.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/filemanager/images/folder-64.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/filemanager/images/go-up.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/fixtoolbar/fixtoolbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/flash/flash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/image/image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/image/images/align_left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/image/images/align_right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/image/images/align_top.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/image/images/refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/insertfile/insertfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/lineheight/lineheight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/link/link.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/map/map.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/map/map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/media/media.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/multiimage/images/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/multiimage/images/select-files-en.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/multiimage/images/select-files-zh-CN.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/multiimage/images/swfupload.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/multiimage/multiimage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/pagebreak/pagebreak.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/plainpaste/plainpaste.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/preview/preview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/quickformat/quickformat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/table/table.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/template/html/1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/template/html/2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/template/html/3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/template/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/plugins/wordpaste/wordpaste.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/themes/common/anchor.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/themes/common/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/themes/common/flash.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/themes/common/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/themes/common/media.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/themes/common/rm.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/themes/default/background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/themes/default/default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/themes/default/default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/themes/qq/editor.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/themes/qq/qq.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/kindeditor/themes/simple/simple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/laydate/laydate.dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/laydate/laydate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/laydate/need/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/laydate/skins/dahong/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/laydate/skins/dahong/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/laydate/skins/danlan/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/laydate/skins/danlan/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/laydate/skins/default/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/laydate/skins/default/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/laydate/skins/molv/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/laydate/skins/molv/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/laydate/skins/qianhuang/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/laydate/skins/qianhuang/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/laydate/skins/yahui/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/laydate/skins/yahui/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/laydate/skins/yalan/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/laydate/skins/yalan/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/af.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/ar-dz.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/ar-kw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/ar-ly.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/ar-ma.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/ar-sa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/ar-tn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/az.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/be.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/bn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/bo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/bs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/cv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/cy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/de-at.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/de-ch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/dv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/en-au.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/en-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/en-gb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/en-ie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/en-nz.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/eo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/es-do.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/eu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/fo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/fr-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/fr-ch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/fy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/gd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/gom-latn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/hi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/hy-am.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/is.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/jv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/ka.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/kk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/km.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/kn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/ky.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/lb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/lo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/lv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/me.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/mi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/mk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/ml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/mr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/ms-my.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/ms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/my.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/ne.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/nl-be.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/nn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/pa-in.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/sd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/se.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/si.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/sl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/sq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/sr-cyrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/sr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/ss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/sw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/ta.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/te.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/tet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/tl-ph.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/tlh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/tzl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/tzm-latn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/tzm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/ur.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/uz-latn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/uz.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/x-pseudo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/yo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/zh-hk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/locale/zh-tw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/min/locales.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/min/locales.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/min/moment-with-locales.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/min/moment-with-locales.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/moment/min/moment.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.az.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.bn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ee.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.hy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.is.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ka.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.lv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.no.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.pt-BR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.rs-latin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.rs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.sl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.sw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ua.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/smalot_bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-TW.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/font/summernote.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/font/summernote.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/font/summernote.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-ar-AR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-bg-BG.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-ca-ES.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-cs-CZ.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-da-DK.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-de-DE.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-es-ES.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-es-EU.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-fa-IR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-fi-FI.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-fr-FR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-gl-ES.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-he-IL.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-hr-HR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-hu-HU.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-id-ID.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-it-IT.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-ja-JP.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-ko-KR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-lt-LT.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-lt-LV.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-nb-NO.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-nl-NL.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-pl-PL.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-pt-BR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-pt-PT.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-ro-RO.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-ru-RU.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-sk-SK.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-sl-SI.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-sr-RS-Latin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-sr-RS.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-sv-SE.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-th-TH.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-tr-TR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-uk-UA.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-vi-VN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/lang/summernote-zh-TW.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/plugin/databasic/summernote-ext-databasic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/plugin/databasic/summernote-ext-databasic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/plugin/hello/summernote-ext-hello.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/plugin/specialchars/summernote-ext-specialchars.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/summernote.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/summernote.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/summernote/summernote.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/uploadify/Change Log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/uploadify/__MACOSX/._Change Log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/uploadify/__MACOSX/._uploadify.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/uploadify/check-exists.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/uploadify/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/uploadify/jquery.uploadify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/uploadify/jquery.uploadify.js.bak" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/uploadify/jquery.uploadify.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/uploadify/jquery.uploadify.min.js.bak" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/uploadify/license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/uploadify/mydemo/btn1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/uploadify/mydemo/uploadify-cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/uploadify/mydemo/uploadify-demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/uploadify/uploadify-cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/uploadify/uploadify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/uploadify/uploadify.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/uploadify/uploadify.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/dist/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/dist/Uploader.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/dist/webuploader.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/dist/webuploader.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/dist/webuploader.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/dist/webuploader.fis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/dist/webuploader.flashonly.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/dist/webuploader.flashonly.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/dist/webuploader.html5nodepend.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/dist/webuploader.html5only.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/dist/webuploader.html5only.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/dist/webuploader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/dist/webuploader.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/dist/webuploader.noimage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/dist/webuploader.noimage.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/dist/webuploader.nolog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/dist/webuploader.nolog.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/dist/webuploader.withoutimage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/dist/webuploader.withoutimage.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/cropper/cropper.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/cropper/cropper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/cropper/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/cropper/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/cropper/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/cropper/uploader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/image-upload/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/image-upload/expressInstall.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/image-upload/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/image-upload/icons.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/image-upload/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/image-upload/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/image-upload/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/image-upload/progress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/image-upload/progress.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/image-upload/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/image-upload/success.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/image-upload/upload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/md5-demo/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/md5-demo/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/requirejs/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/requirejs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/examples/requirejs/require.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/mydemo/article-upload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/mydemo/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/mydemo/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/mydemo/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/mydemo/progress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/mydemo/success.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/mydemo/webuploader-demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/mydemo/webuploader-demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/server/crossdomain.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/server/fileupload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/server/fileupload2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/server/preview.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/server/upload/QQ鎷奸煶鎴浘20170123154824.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lankesoftapp/public/js/vendor/webuploader/server/upload/site-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/ar/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/bg/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/ca/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/cs/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/da/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/de/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/de_de/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/el/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/es/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/fr/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/he/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/hu/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/id/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/it/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/ja/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/nl/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/no/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/pl/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/pt/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/pt_br/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/ro/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/ru/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/sk/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/sv/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/ta_in/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/uk/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/vi/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/zh_cn/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/messages/zh_tw/yii.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/ar/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/bg/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/ca/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/da/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/de/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/de_de/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/el/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/es/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/fr/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/he/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/it/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/ja/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/no/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/pl/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/pt/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/pt_br/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/ro/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/ru/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/sk/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/sv/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/uk/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/zh/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/zh_cn/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/requirements/views/zh_tw/index.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/forms/ProductForm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/css/ie.css" afterPath="$PROJECT_DIR$/assets/b44d6d82/css/ie.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/css/main.css" afterPath="$PROJECT_DIR$/assets/b44d6d82/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/css/print.css" afterPath="$PROJECT_DIR$/assets/b44d6d82/css/print.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/css/screen.css" afterPath="$PROJECT_DIR$/assets/b44d6d82/css/screen.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/images/logo.png" afterPath="$PROJECT_DIR$/assets/b44d6d82/images/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/blank.gif" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/blank.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/fancy_close.png" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/fancy_close.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/fancy_loading.png" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/fancy_loading.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/fancy_nav_left.png" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/fancy_nav_left.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/fancy_nav_right.png" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/fancy_nav_right.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/fancy_shadow_e.png" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/fancy_shadow_e.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/fancy_shadow_n.png" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/fancy_shadow_n.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/fancy_shadow_ne.png" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/fancy_shadow_ne.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/fancy_shadow_nw.png" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/fancy_shadow_nw.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/fancy_shadow_s.png" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/fancy_shadow_s.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/fancy_shadow_se.png" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/fancy_shadow_se.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/fancy_shadow_sw.png" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/fancy_shadow_sw.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/fancy_shadow_w.png" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/fancy_shadow_w.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/fancy_title_left.png" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/fancy_title_left.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/fancy_title_main.png" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/fancy_title_main.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/fancy_title_over.png" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/fancy_title_over.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/fancy_title_right.png" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/fancy_title_right.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/fancybox-x.png" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/fancybox-x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/fancybox-y.png" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/fancybox-y.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/fancybox.png" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/fancybox.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/jquery.fancybox-1.3.1.css" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/jquery.fancybox-1.3.1.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/fancybox/jquery.fancybox-1.3.1.pack.js" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/fancybox/jquery.fancybox-1.3.1.pack.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/main.js" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/4f7b2a15/js/tooltip.js" afterPath="$PROJECT_DIR$/assets/b44d6d82/js/tooltip.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/autocomplete/indicator.gif" afterPath="$PROJECT_DIR$/assets/d6d1718a/autocomplete/indicator.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/autocomplete/jquery.autocomplete.css" afterPath="$PROJECT_DIR$/assets/d6d1718a/autocomplete/jquery.autocomplete.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jquery.ajaxqueue.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jquery.ajaxqueue.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jquery.autocomplete.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jquery.autocomplete.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jquery.ba-bbq.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jquery.ba-bbq.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jquery.ba-bbq.min.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jquery.ba-bbq.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jquery.bgiframe.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jquery.bgiframe.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jquery.cookie.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jquery.cookie.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jquery.history.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jquery.history.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jquery.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jquery.maskedinput.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jquery.maskedinput.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jquery.maskedinput.min.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jquery.maskedinput.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jquery.metadata.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jquery.metadata.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jquery.min.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jquery.multifile.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jquery.multifile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jquery.rating.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jquery.rating.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jquery.treeview.async.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jquery.treeview.async.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jquery.treeview.edit.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jquery.treeview.edit.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jquery.treeview.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jquery.treeview.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jquery.yii.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jquery.yii.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jquery.yiiactiveform.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jquery.yiiactiveform.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jquery.yiitab.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jquery.yiitab.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jui/css/base/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="$PROJECT_DIR$/assets/d6d1718a/jui/css/base/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="$PROJECT_DIR$/assets/d6d1718a/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jui/css/base/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="$PROJECT_DIR$/assets/d6d1718a/jui/css/base/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jui/css/base/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/assets/d6d1718a/jui/css/base/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jui/css/base/images/ui-bg_glass_75_dadada_1x400.png" afterPath="$PROJECT_DIR$/assets/d6d1718a/jui/css/base/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jui/css/base/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="$PROJECT_DIR$/assets/d6d1718a/jui/css/base/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jui/css/base/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="$PROJECT_DIR$/assets/d6d1718a/jui/css/base/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="$PROJECT_DIR$/assets/d6d1718a/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jui/css/base/images/ui-icons_222222_256x240.png" afterPath="$PROJECT_DIR$/assets/d6d1718a/jui/css/base/images/ui-icons_222222_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jui/css/base/images/ui-icons_2e83ff_256x240.png" afterPath="$PROJECT_DIR$/assets/d6d1718a/jui/css/base/images/ui-icons_2e83ff_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jui/css/base/images/ui-icons_454545_256x240.png" afterPath="$PROJECT_DIR$/assets/d6d1718a/jui/css/base/images/ui-icons_454545_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jui/css/base/images/ui-icons_888888_256x240.png" afterPath="$PROJECT_DIR$/assets/d6d1718a/jui/css/base/images/ui-icons_888888_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jui/css/base/images/ui-icons_cd0a0a_256x240.png" afterPath="$PROJECT_DIR$/assets/d6d1718a/jui/css/base/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jui/css/base/jquery-ui.css" afterPath="$PROJECT_DIR$/assets/d6d1718a/jui/css/base/jquery-ui.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jui/js/jquery-ui-i18n.min.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jui/js/jquery-ui-i18n.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/jui/js/jquery-ui.min.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/jui/js/jquery-ui.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/punycode.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/punycode.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/punycode.min.js" afterPath="$PROJECT_DIR$/assets/d6d1718a/punycode.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/rating/delete.gif" afterPath="$PROJECT_DIR$/assets/d6d1718a/rating/delete.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/rating/jquery.rating.css" afterPath="$PROJECT_DIR$/assets/d6d1718a/rating/jquery.rating.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/rating/star.gif" afterPath="$PROJECT_DIR$/assets/d6d1718a/rating/star.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/treeview/images/ajax-loader.gif" afterPath="$PROJECT_DIR$/assets/d6d1718a/treeview/images/ajax-loader.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/treeview/images/file.gif" afterPath="$PROJECT_DIR$/assets/d6d1718a/treeview/images/file.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/treeview/images/folder-closed.gif" afterPath="$PROJECT_DIR$/assets/d6d1718a/treeview/images/folder-closed.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/treeview/images/folder.gif" afterPath="$PROJECT_DIR$/assets/d6d1718a/treeview/images/folder.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/treeview/images/minus.gif" afterPath="$PROJECT_DIR$/assets/d6d1718a/treeview/images/minus.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/treeview/images/plus.gif" afterPath="$PROJECT_DIR$/assets/d6d1718a/treeview/images/plus.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/treeview/images/treeview-black-line.gif" afterPath="$PROJECT_DIR$/assets/d6d1718a/treeview/images/treeview-black-line.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/treeview/images/treeview-black.gif" afterPath="$PROJECT_DIR$/assets/d6d1718a/treeview/images/treeview-black.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/treeview/images/treeview-default-line.gif" afterPath="$PROJECT_DIR$/assets/d6d1718a/treeview/images/treeview-default-line.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/treeview/images/treeview-default.gif" afterPath="$PROJECT_DIR$/assets/d6d1718a/treeview/images/treeview-default.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/treeview/images/treeview-famfamfam-line.gif" afterPath="$PROJECT_DIR$/assets/d6d1718a/treeview/images/treeview-famfamfam-line.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/treeview/images/treeview-famfamfam.gif" afterPath="$PROJECT_DIR$/assets/d6d1718a/treeview/images/treeview-famfamfam.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/treeview/images/treeview-gray-line.gif" afterPath="$PROJECT_DIR$/assets/d6d1718a/treeview/images/treeview-gray-line.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/treeview/images/treeview-gray.gif" afterPath="$PROJECT_DIR$/assets/d6d1718a/treeview/images/treeview-gray.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/treeview/images/treeview-red-line.gif" afterPath="$PROJECT_DIR$/assets/d6d1718a/treeview/images/treeview-red-line.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/treeview/images/treeview-red.gif" afterPath="$PROJECT_DIR$/assets/d6d1718a/treeview/images/treeview-red.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/treeview/jquery.treeview.css" afterPath="$PROJECT_DIR$/assets/d6d1718a/treeview/jquery.treeview.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/a8d58c96/yiitab/jquery.yiitab.css" afterPath="$PROJECT_DIR$/assets/d6d1718a/yiitab/jquery.yiitab.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/css/ie.css" afterPath="$PROJECT_DIR$/assets/4f7b2a15/css/ie.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/css/main.css" afterPath="$PROJECT_DIR$/assets/4f7b2a15/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/css/print.css" afterPath="$PROJECT_DIR$/assets/4f7b2a15/css/print.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/css/screen.css" afterPath="$PROJECT_DIR$/assets/4f7b2a15/css/screen.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/images/logo.png" afterPath="$PROJECT_DIR$/assets/4f7b2a15/images/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/blank.gif" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/blank.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/fancy_close.png" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/fancy_close.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/fancy_loading.png" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/fancy_loading.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/fancy_nav_left.png" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/fancy_nav_left.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/fancy_nav_right.png" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/fancy_nav_right.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/fancy_shadow_e.png" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/fancy_shadow_e.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/fancy_shadow_n.png" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/fancy_shadow_n.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/fancy_shadow_ne.png" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/fancy_shadow_ne.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/fancy_shadow_nw.png" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/fancy_shadow_nw.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/fancy_shadow_s.png" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/fancy_shadow_s.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/fancy_shadow_se.png" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/fancy_shadow_se.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/fancy_shadow_sw.png" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/fancy_shadow_sw.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/fancy_shadow_w.png" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/fancy_shadow_w.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/fancy_title_left.png" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/fancy_title_left.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/fancy_title_main.png" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/fancy_title_main.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/fancy_title_over.png" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/fancy_title_over.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/fancy_title_right.png" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/fancy_title_right.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/fancybox-x.png" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/fancybox-x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/fancybox-y.png" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/fancybox-y.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/fancybox.png" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/fancybox.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/jquery.fancybox-1.3.1.css" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/jquery.fancybox-1.3.1.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/fancybox/jquery.fancybox-1.3.1.pack.js" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/fancybox/jquery.fancybox-1.3.1.pack.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/main.js" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/b44d6d82/js/tooltip.js" afterPath="$PROJECT_DIR$/assets/4f7b2a15/js/tooltip.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/autocomplete/indicator.gif" afterPath="$PROJECT_DIR$/assets/a8d58c96/autocomplete/indicator.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/autocomplete/jquery.autocomplete.css" afterPath="$PROJECT_DIR$/assets/a8d58c96/autocomplete/jquery.autocomplete.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jquery.ajaxqueue.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jquery.ajaxqueue.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jquery.autocomplete.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jquery.autocomplete.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jquery.ba-bbq.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jquery.ba-bbq.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jquery.ba-bbq.min.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jquery.ba-bbq.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jquery.bgiframe.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jquery.bgiframe.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jquery.cookie.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jquery.cookie.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jquery.history.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jquery.history.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jquery.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jquery.maskedinput.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jquery.maskedinput.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jquery.maskedinput.min.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jquery.maskedinput.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jquery.metadata.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jquery.metadata.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jquery.min.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jquery.multifile.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jquery.multifile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jquery.rating.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jquery.rating.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jquery.treeview.async.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jquery.treeview.async.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jquery.treeview.edit.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jquery.treeview.edit.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jquery.treeview.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jquery.treeview.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jquery.yii.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jquery.yii.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jquery.yiiactiveform.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jquery.yiiactiveform.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jquery.yiitab.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jquery.yiitab.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jui/css/base/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="$PROJECT_DIR$/assets/a8d58c96/jui/css/base/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="$PROJECT_DIR$/assets/a8d58c96/jui/css/base/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jui/css/base/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="$PROJECT_DIR$/assets/a8d58c96/jui/css/base/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jui/css/base/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/assets/a8d58c96/jui/css/base/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jui/css/base/images/ui-bg_glass_75_dadada_1x400.png" afterPath="$PROJECT_DIR$/assets/a8d58c96/jui/css/base/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jui/css/base/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="$PROJECT_DIR$/assets/a8d58c96/jui/css/base/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jui/css/base/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="$PROJECT_DIR$/assets/a8d58c96/jui/css/base/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="$PROJECT_DIR$/assets/a8d58c96/jui/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jui/css/base/images/ui-icons_222222_256x240.png" afterPath="$PROJECT_DIR$/assets/a8d58c96/jui/css/base/images/ui-icons_222222_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jui/css/base/images/ui-icons_2e83ff_256x240.png" afterPath="$PROJECT_DIR$/assets/a8d58c96/jui/css/base/images/ui-icons_2e83ff_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jui/css/base/images/ui-icons_454545_256x240.png" afterPath="$PROJECT_DIR$/assets/a8d58c96/jui/css/base/images/ui-icons_454545_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jui/css/base/images/ui-icons_888888_256x240.png" afterPath="$PROJECT_DIR$/assets/a8d58c96/jui/css/base/images/ui-icons_888888_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jui/css/base/images/ui-icons_cd0a0a_256x240.png" afterPath="$PROJECT_DIR$/assets/a8d58c96/jui/css/base/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jui/css/base/jquery-ui.css" afterPath="$PROJECT_DIR$/assets/a8d58c96/jui/css/base/jquery-ui.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jui/js/jquery-ui-i18n.min.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jui/js/jquery-ui-i18n.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/jui/js/jquery-ui.min.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/jui/js/jquery-ui.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/punycode.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/punycode.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/punycode.min.js" afterPath="$PROJECT_DIR$/assets/a8d58c96/punycode.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/rating/delete.gif" afterPath="$PROJECT_DIR$/assets/a8d58c96/rating/delete.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/rating/jquery.rating.css" afterPath="$PROJECT_DIR$/assets/a8d58c96/rating/jquery.rating.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/rating/star.gif" afterPath="$PROJECT_DIR$/assets/a8d58c96/rating/star.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/treeview/images/ajax-loader.gif" afterPath="$PROJECT_DIR$/assets/a8d58c96/treeview/images/ajax-loader.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/treeview/images/file.gif" afterPath="$PROJECT_DIR$/assets/a8d58c96/treeview/images/file.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/treeview/images/folder-closed.gif" afterPath="$PROJECT_DIR$/assets/a8d58c96/treeview/images/folder-closed.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/treeview/images/folder.gif" afterPath="$PROJECT_DIR$/assets/a8d58c96/treeview/images/folder.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/treeview/images/minus.gif" afterPath="$PROJECT_DIR$/assets/a8d58c96/treeview/images/minus.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/treeview/images/plus.gif" afterPath="$PROJECT_DIR$/assets/a8d58c96/treeview/images/plus.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/treeview/images/treeview-black-line.gif" afterPath="$PROJECT_DIR$/assets/a8d58c96/treeview/images/treeview-black-line.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/treeview/images/treeview-black.gif" afterPath="$PROJECT_DIR$/assets/a8d58c96/treeview/images/treeview-black.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/treeview/images/treeview-default-line.gif" afterPath="$PROJECT_DIR$/assets/a8d58c96/treeview/images/treeview-default-line.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/treeview/images/treeview-default.gif" afterPath="$PROJECT_DIR$/assets/a8d58c96/treeview/images/treeview-default.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/treeview/images/treeview-famfamfam-line.gif" afterPath="$PROJECT_DIR$/assets/a8d58c96/treeview/images/treeview-famfamfam-line.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/treeview/images/treeview-famfamfam.gif" afterPath="$PROJECT_DIR$/assets/a8d58c96/treeview/images/treeview-famfamfam.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/treeview/images/treeview-gray-line.gif" afterPath="$PROJECT_DIR$/assets/a8d58c96/treeview/images/treeview-gray-line.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/treeview/images/treeview-gray.gif" afterPath="$PROJECT_DIR$/assets/a8d58c96/treeview/images/treeview-gray.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/treeview/images/treeview-red-line.gif" afterPath="$PROJECT_DIR$/assets/a8d58c96/treeview/images/treeview-red-line.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/treeview/images/treeview-red.gif" afterPath="$PROJECT_DIR$/assets/a8d58c96/treeview/images/treeview-red.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/treeview/jquery.treeview.css" afterPath="$PROJECT_DIR$/assets/a8d58c96/treeview/jquery.treeview.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lankesoftapp/assets/d6d1718a/yiitab/jquery.yiitab.css" afterPath="$PROJECT_DIR$/assets/a8d58c96/yiitab/jquery.yiitab.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/database.php" afterPath="$PROJECT_DIR$/protected/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/data/lanke.mysql.sql" afterPath="$PROJECT_DIR$/protected/data/lanke.mysql.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/components/AdminBaseController.php" afterPath="$PROJECT_DIR$/protected/modules/admin/components/AdminBaseController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/controllers/SiteController.php" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/SiteController.php" />
     </list>
     <ignored path="lankesoft.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1160,6 +29,30 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - db_lankesoft@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - db_lankesoft@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="cate" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -1188,12 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lankesoftapp/protected/yiic.php" />
-        <option value="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/controllers/DefaultController.php" />
-        <option value="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/default/index.php" />
-        <option value="$PROJECT_DIR$/LICENSE" />
-        <option value="$PROJECT_DIR$/lankesoftapp/protected/bootstrap.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/class/article.php" />
         <option value="$PROJECT_DIR$/lankesoftapp/index.php" />
         <option value="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/solution/list.php" />
@@ -1239,6 +126,12 @@
         <option value="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/forms/AdminForm.php" />
         <option value="$PROJECT_DIR$/lankesoftapp/protected/config/main.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/protected/config/database.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/components/AdminBaseController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/forms/ProductForm.php" />
+        <option value="$PROJECT_DIR$/protected/data/lanke.mysql.sql" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/models/Cate.php" />
       </list>
     </option>
   </component>
@@ -1316,6 +209,150 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lankesoft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lankesoft" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lankesoft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lankesoft" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lankesoft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lankesoft" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forms" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lankesoft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lankesoft" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lankesoft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lankesoft" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lankesoft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lankesoft" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -1333,11 +370,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\vagrant_data\php\lankesoft\protected\modules\admin\forms" />
       <recent name="E:\vagrant_data\php\lankesoft" />
       <recent name="E:\vagrant_data\php\lankesoft\lankesoftapp\protected\modules\admin\components" />
       <recent name="E:\vagrant_data\php\lankesoft\lankesoftapp\protected\modules\admin\controllers" />
       <recent name="E:\vagrant_data\php\lankesoft\lankesoftapp\protected\modules\admin\views" />
-      <recent name="E:\vagrant_data\php\lankesoft\lankesoftapp\protected\modules\admin\views\solution" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\vagrant_data\php\lankesoft" />
@@ -1468,12 +505,12 @@
       <workItem from="1501139381255" duration="12272000" />
       <workItem from="1501162504532" duration="851000" />
       <workItem from="1501163591288" duration="8739000" />
-      <workItem from="1501205105925" duration="6331000" />
+      <workItem from="1501205105925" duration="11669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59382000" />
+    <option name="totallyTimeSpent" value="64720000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1489,13 +526,13 @@
     <editor active="false" />
     <layout>
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946696" sideWeight="0.49570817" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946696" sideWeight="0.49570817" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17697228" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27558637" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7256163" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26599148" sideWeight="0.50429183" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1551,81 +588,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/framework/validators/CRequiredValidator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="60" column="109" selection-start-line="60" selection-start-column="109" selection-end-line="60" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lankesoftapp/protected/runtime/application.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lankesoftapp/.appconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lankesoftapp/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/web/widgets/captcha/CCaptcha.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="72" column="24" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/web/widgets/CWidget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="98" column="99" selection-start-line="98" selection-start-column="99" selection-end-line="98" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/base/CModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="153" column="24" selection-start-line="153" selection-start-column="24" selection-end-line="153" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lankesoftapp/protected/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/site/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3a8e8be9-8006-4ab5-b14e-f2f290aefa85/console.sql" />
-    <entry file="file://$PROJECT_DIR$/lankesoftapp/protected/extensions/Utils.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework/web/auth/CBaseUserIdentity.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
@@ -1708,6 +670,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="81" column="20" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="20" />
+          <folding>
+            <element signature="n#login#0;n#CWebUser#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1950,6 +915,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/components/AdminBaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/forms/AdminForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/effff77e-f4d2-4fe5-957b-c8e71315099b/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/e3dfc29c/effff77e-f4d2-4fe5-957b-c8e71315099b/db_lankesoft.question">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/data/lanke.mysql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/forms/ProductForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/e3dfc29c/effff77e-f4d2-4fe5-957b-c8e71315099b/db_lankesoft.cate">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/models/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/models/Cate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1967,6 +1030,6 @@
     </states>
   </component>
   <component name="webServersAuthStorage">
-    <data>AAAAgCey+wHd8evCGvp6EBaKtNnn8nie8u4fZBEAih70QHR4aHGoBoSuOc2WxPq5PvrLPnCRRczsphNTTWUcyoRoQdjUvi+WgyRbMNnTn7DvqgPhZce/7KjiUYkDAAtb27O771mcwCwj5mFMeEGqpCNr/p8K/LFMJTAYPHZyvlvmwerE9ferHVh8NfaXQROhE53Xhg==</data>
+    <data>AAAAsMvNeca5ucZ4/jR70m5v/RppkxKHBvm127Zds2v3LXexi+YD8Fi82RyKxBH8faL7PvsSa3v1IhMl8wHHnRAuqgKbFr+2h+OUAjQig+vLNivHRpdlpTT0FRxTI+cyR9OsbUqQbw0b+B4kc4X50hzEhQ4b0Tn7R2vEfpQ9F86tyPxs7VMO6J0c686k0RjjnOlpSH3YKQXO40Ux110x3HXVPbQ/ugp/+f1AqYkDIvZl+zKWslpgvTfKU42iMg0KF3eXiQ==</data>
   </component>
 </project>

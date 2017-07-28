@@ -13,6 +13,31 @@ CREATE TABLE admin (
 -- 初始化管理员账号
 INSERT INTO admin(id, username, password, salt, last_login_ip, mtime, ctime) VALUES (1, 'admin', '7da662894de55656092233800f47c57f', 'MDI5OWE4MjNmOTJiMmU3ZDE3Yjg1OGU2MzZlMTE0ZDY=', '127.0.0.1', 1501168232, 1501168232);
 
+DROP TABLE `cate`;
+CREATE TABLE `cate` (
+  `id` INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `name` VARCHAR(128) NOT NULL DEFAULT '' COMMENT '分类名称',
+  `type` TINYINT(4) NOT NULL DEFAULT 0 COMMENT '分类类型，产品列表|',
+  `parent` INTEGER NOT NULL DEFAULT 0 COMMENT '多级父分类，0 代表自己是父亲',
+  `mtime` INT(12) NOT NULL DEFAULT 0 COMMENT '修改时间',
+  `ctime` INT(12) NOT NULL DEFAULT 0 COMMENT '创建时间'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT '通用分类表';
+
+-- 初始化 分类
+INSERT INTO `cate`(`id`,`name`,`type`) VALUES (1,'屈曲约束支撑', 1);
+INSERT INTO `cate`(`id`,`name`,`type`) VALUES (2,'软钢阻尼器', 1);
+INSERT INTO `cate`(`id`,`name`,`type`) VALUES (3,'墙板阻尼器', 1);
+INSERT INTO `cate`(`id`,`name`,`type`) VALUES (4,'软件报价', 1);
+INSERT INTO `cate`(`id`,`name`,`type`) VALUES (5,'多高层结构', 1);
+INSERT INTO `cate`(`id`,`name`,`type`) VALUES (6,'厂房结构', 1);
+INSERT INTO `cate`(`id`,`name`,`type`) VALUES (7,'空间结构', 1);
+INSERT INTO `cate`(`id`,`name`,`type`) VALUES (8,'MTStool工具箱', 1);
+INSERT INTO `cate`(`id`,`name`,`type`) VALUES (9,'涉外项目', 1);
+INSERT INTO `cate`(`id`,`name`,`type`) VALUES (10,'国内项目', 1);
+INSERT INTO `cate`(`id`,`name`,`type`) VALUES (11,'减震演示', 1);
+INSERT INTO `cate`(`id`,`name`,`type`) VALUES (12,'软件演示', 1);
+
+
 
 CREATE TABLE `product` (
     `id` INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -24,7 +49,7 @@ CREATE TABLE `product` (
     `views` INT(10) NOT NULL DEFAULT 0 COMMENT '浏览次数',
     `mtime` INT(12) NOT NULL DEFAULT 0 COMMENT '修改时间',
     `ctime` INT(12) NOT NULL DEFAULT 0 COMMENT '创建时间'
-) COMMENT '产品表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT '产品表';
 
 
 CREATE TABLE `product_demo` (
@@ -38,7 +63,7 @@ CREATE TABLE `product_demo` (
   `mtime` INT(12) NOT NULL DEFAULT 0 COMMENT '修改时间',
   `ctime` INT(12) NOT NULL DEFAULT 0 COMMENT '创建时间',
   KEY (sort)
-) COMMENT '产品演示表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8  COMMENT '产品演示表';
 
 CREATE TABLE `question` (
   `id` INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -50,5 +75,5 @@ CREATE TABLE `question` (
   `mtime` INT(12) NOT NULL DEFAULT 0 COMMENT '修改时间',
   `ctime` INT(12) NOT NULL DEFAULT 0 COMMENT '创建时间',
   KEY (sort)
-) COMMENT '常见问题';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8  COMMENT '常见问题';
 
