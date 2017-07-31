@@ -11,7 +11,10 @@ $routeNav = array(
     'userManage',
     'clientManage',
     'team',
-    'life'
+    'life',
+    'indexdemo',
+    'vip',
+    'vipproduction'
 );
 
 

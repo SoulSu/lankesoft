@@ -150,6 +150,36 @@ return <<<REGEXP
         "url": "life/list.html"
       }
     ]
+  },
+  {
+    "t": "首页案例展示",
+    "url": "",
+    "child": [
+      {
+        "t": "首页案例列表",
+        "url": "indexdemo/list.html"
+      }
+    ]
+  },
+  {
+    "t": "会员案例管理",
+    "url": "",
+    "child": [
+      {
+        "t": "会员案例列表",
+        "url": "vip/list.html"
+      }
+    ]
+  },
+  {
+    "t": "会员产品管理",
+    "url": "",
+    "child": [
+      {
+        "t": "会员产品列表",
+        "url": "vipproduction/list.html"
+      }
+    ]
   }
 ]
 REGEXP;
