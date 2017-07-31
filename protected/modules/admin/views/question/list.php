@@ -36,30 +36,21 @@
                                         </thead>
                                       	
                                         <tbody>
+                                        <?php /** @var Product $product */
+                                        foreach ($productList as $product) {?>
                                         <tr>
-                                            <td>1</td>
-                                            <td>屈曲约束支撑（BRB）</td>
-                                            <td>减震演示</td>
-                                            <td>2013-08-06 15:06:38</td>                                     
-                                            <td>39360</td>
+                                            <td><?php echo $product->id?></td>
+                                            <td><?php echo $product->title?></td>
+                                            <td><?php echo $product->cate->name?></td>
+                                            <td><?php echo date('Y-m-d H:i:s',$product->mtime)?></td>
+                                            <td><?php echo $product->views?></td>
                                           
                                             <td>
-                                              <a href="">编辑</a>
-                                              <a href="">删除</a>
+                                              <a href="/question/edit?id=<?php echo $product->id?>">编辑</a>
+                                              <a href="/question/delete?id=<?php echo $product->id?>">删除</a>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>屈曲约束支撑（BRB）</td>
-                                            <td>软件演示</td>
-                                            <td>2013-08-06 15:06:38</td>                                     
-                                            <td>39360</td>
-                                          
-                                            <td>
-                                              <a href="">编辑</a>
-                                              <a href="">删除</a>
-                                            </td>
-                                        </tr>
+                                        <?php }?>
                                         </tbody>
                                     </table>
                                 </div>

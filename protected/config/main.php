@@ -22,6 +22,7 @@ return array(
 		'application.models.*',
         'application.components.*',
         'application.components.process.*',
+        'application.components.exception.*',
         'application.extensions.*',
     ),
 

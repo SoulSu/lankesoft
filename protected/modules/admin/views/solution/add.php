@@ -16,11 +16,13 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <form class="form-horizontal" role="form" method="get" action="../server/ajaxReturn.json" data-validate="validate2">
+                                    <form class="form-horizontal" role="form" method="post" action="/solution/add" >
+                                        <?php echo CHtml::errorSummary($form); ?>
+                                        <input type="hidden" name="id" value="<?php echo getModelData($model, 'id') ?>">
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">标题</label>
                                             <div class="col-sm-4">
-                                                <input type="text" class="form-control" placeholder="新闻标题" name="title">
+                                                <input type="text" class="form-control" placeholder="新闻标题" name="title" value="<?php echo getModelData($model, 'title') ?>">
                                             </div>
                                             <p class="col-sm-6 help-block">必填</p>
                                         </div>
@@ -52,7 +54,7 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">发布日期</label>
                                             <div class="col-sm-4">
-                                              <input type="text" class="form-control" id="datepicker1" value="2016-10-16"/>
+                                              <input type="text" class="form-control" id="datepicker1" value="<?php echo date('Y-m-d', getModelData($model,'ctime', time()));?>" name="ctime" />
                                             </div>
                                             <p class="col-sm-6 help-block">必填</p>
                                         </div>
@@ -60,7 +62,7 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">内容</label>
                                             <div class="col-sm-9">
-                                                <textarea class="form-control" id="editor"></textarea>
+                                                <textarea class="form-control" id="editor" name="content"><?php echo getModelData($model,'content')?></textarea>
                                             </div>
                                              <p class="col-sm-1 help-block">必填</p>
                                         </div>
@@ -68,7 +70,7 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">关键字</label>
                                             <div class="col-sm-4">
-                                                <input type="text" class="form-control" placeholder="关键字" name="author">
+                                                <input type="text" class="form-control" placeholder="关键字" name="keywords" value="<?php echo getModelData($model,'keywords')?>">
                                             </div>
                                             <p class="col-sm-6 help-block">必填</p>
                                         </div>
@@ -76,7 +78,7 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">简介</label>
                                             <div class="col-sm-4">
-                                                <textarea class="form-control"></textarea>
+                                                <textarea class="form-control" name="describe"><?php echo getModelData($model,'describe')?></textarea>
                                             </div>
                                              <p class="col-sm-6 help-block">必填</p>
                                         </div>
@@ -84,14 +86,14 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">显示顺序</label>
                                             <div class="col-sm-4">
-                                                <input type="text" class="form-control" placeholder="显示顺序" name="author">
+                                                <input type="text" class="form-control" placeholder="显示顺序"  name="sort" value="<?php echo getModelData($model,'sort')?>">
                                             </div>
                                             <p class="col-sm-6 help-block"></p>
                                         </div>
                                         <hr/>
                                         <div class="form-group">
                                             <div class="col-sm-offset-2 col-sm-10">
-                                                <button type="button" class="btn btn-primary J_ajaxSubmitBtn">提交</button>
+                                                <button type="submit" class="btn btn-primary J_ajaxSubmitBtn">提交</button>
                                             </div>
                                         </div>
                                     </form>

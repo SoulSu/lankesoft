@@ -16,11 +16,13 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <form class="form-horizontal" role="form" method="get" action="../server/ajaxReturn.json" data-validate="validate2">
+                                    <form class="form-horizontal" role="form" method="post" action="/productdemo/add">
+                                        <?php echo CHtml::errorSummary($form); ?>
+                                        <input type="hidden" name="id" value="<?php echo getModelData($model, 'id') ?>">
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">标题</label>
                                             <div class="col-sm-4">
-                                                <input type="text" class="form-control" placeholder="产品名称" name="title">
+                                                <input type="text" class="form-control" placeholder="产品名称" name="title" value="<?php echo getModelData($model, 'title') ?>">
                                             </div>
                                             <p class="col-sm-6 help-block">必填</p>
                                         </div>
@@ -28,9 +30,16 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">分类</label>
                                             <div class="col-sm-4">
+                                                <?php
+                                                    $_cate = getModelData($model,'cate', null);
+                                                ?>
                                                <select class="form-control" name="category">
-                                                    <option value="1">减震演示</option>
-                                                    <option value="2">软件演示</option>
+                                                   <?php /** @var Cate $cate */
+                                                   foreach ($cates as $cate) { ?>
+                                                       <option value="<?php echo $cate->id; ?>" <?php if ($_cate !== null && $cate->id == $_cate->id){echo "selected='selected'";}?>>
+                                                           <?php echo $cate->name; ?>
+                                                       </option>
+                                                   <?php } ?>
                                                 </select> 
                                             </div>
                                             <p class="col-sm-6 help-block"></p>
@@ -63,7 +72,7 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">内容</label>
                                             <div class="col-sm-9">
-                                                <textarea class="form-control" id="editor"></textarea>
+                                                <textarea class="form-control" id="editor" name="content"><?php echo getModelData($model,'content')?></textarea>
                                             </div>
                                              <p class="col-sm-1 help-block"></p>
                                         </div>
@@ -71,7 +80,7 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">简介</label>
                                             <div class="col-sm-4">
-                                                <textarea class="form-control"></textarea>
+                                                <textarea class="form-control" name="describe"><?php echo getModelData($model,'describe')?></textarea>
                                             </div>
                                              <p class="col-sm-6 help-block"></p>
                                         </div>
@@ -79,7 +88,7 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">显示顺序</label>
                                             <div class="col-sm-4">
-                                                <input type="text" class="form-control" placeholder="显示顺序" name="author">
+                                                <input type="text" class="form-control" placeholder="显示顺序" name="sort" value="<?php echo getModelData($model,'sort')?>">
                                             </div>
                                             <p class="col-sm-6 help-block"></p>
                                         </div>
@@ -87,7 +96,7 @@
                                         <hr/>
                                         <div class="form-group">
                                             <div class="col-sm-offset-2 col-sm-10">
-                                                <button type="button" class="btn btn-primary J_ajaxSubmitBtn">提交</button>
+                                                <button type="submit" class="btn btn-primary J_ajaxSubmitBtn">提交</button>
                                             </div>
                                         </div>
                                     </form>
@@ -131,7 +140,7 @@
             //编辑器失去焦点时，同步编辑器中的内容到textarea，在异步提交内容的时候，必须写！否则textarea中的值是不会改变的
             this.sync();
         },
-        uploadJson: '../server/upload.php',
+        uploadJson: '/admin/fileupload.html?type=editor',
         items: [
           'source', '|', 'undo', 'redo', '|', 'preview', 'print', 'template', 'code', 'cut', 'copy', 'paste',
           'plainpaste', 'wordpaste', '|', 'justifyleft', 'justifycenter', 'justifyright',

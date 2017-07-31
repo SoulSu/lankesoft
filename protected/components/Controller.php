@@ -39,10 +39,14 @@ class Controller extends CController
         parent::init();
         header("Content-Type:text/html; charset=UTF-8");
 
-        $this->request=YiiBase::app()->getRequest();
+        $this->request = YiiBase::app()->getRequest();
 
         $this->jsonData = new JsonResponse();
         $this->jsonData->setCode(0);
+
+//        YiiBase::app()->handleException()
+
+//        set_exception_handler($this->handleException);
 
         /*
         Yii::log(Yii::app()->request->getPathInfo(), CLogger::LEVEL_INFO, Yii::app()->request->getPathInfo());
@@ -65,9 +69,24 @@ class Controller extends CController
         );
     }
 
-    public function renderJson()
+    public function renderJson($msg = '操作成功', $data = array())
     {
+        if (!empty($data)) {
+            $this->jsonData->setData($data);
+        }
+        if (!empty($msg)) {
+            $this->jsonData->setMsg($msg);
+        }
+
         echo $this->jsonData;
+    }
+
+    /**
+     * 文件上传，公共处理
+     */
+    public function actionUpload()
+    {
+        uploadFile();
     }
 }
 

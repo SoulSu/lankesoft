@@ -1,26 +1,35 @@
 <?php
 
 /**
- * This is the model class for table "question".
+ * This is the model class for table "projectcase".
  *
- * The followings are the available columns in table 'question':
+ * The followings are the available columns in table 'projectcase':
  * @property integer $id
  * @property string $title
  * @property integer $cate_id
+ * @property integer $provice_code
+ * @property integer $city_code
+ * @property integer $area_code
+ * @property integer $bid_time
+ * @property string $scale
+ * @property string $address
+ * @property string $overview
+ * @property string $situation
+ * @property string $completion
  * @property integer $sort
- * @property string $content
+ * @property string $thumbnail
  * @property integer $views
  * @property integer $mtime
  * @property integer $ctime
  */
-class Question extends CActiveRecord
+class Projectcase extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'question';
+		return 'projectcase';
 	}
 
 	/**
@@ -31,12 +40,12 @@ class Question extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('content', 'required'),
-			array('cate_id, sort, views, mtime, ctime', 'numerical', 'integerOnly'=>true),
-			array('title', 'length', 'max'=>128),
+			array('scale, address, overview, situation, completion', 'required'),
+			array('cate_id, provice_code, city_code, area_code, bid_time, sort, views, mtime, ctime', 'numerical', 'integerOnly'=>true),
+			array('title, thumbnail', 'length', 'max'=>128),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, title, cate_id, sort, content, views, mtime, ctime', 'safe', 'on'=>'search'),
+			array('id, title, cate_id, provice_code, city_code, area_code, bid_time, scale, address, overview, situation, completion, sort, thumbnail, views, mtime, ctime', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -60,8 +69,17 @@ class Question extends CActiveRecord
 			'id' => 'ID',
 			'title' => '文章标题',
 			'cate_id' => '产品分类',
+			'provice_code' => '省code',
+			'city_code' => '市code',
+			'area_code' => '区code',
+			'bid_time' => '中标时间',
+			'scale' => '项目规模',
+			'address' => '项目地址',
+			'overview' => '项目概况',
+			'situation' => '项目应用情况',
+			'completion' => '项目完成情况',
 			'sort' => '排序',
-			'content' => '内容',
+			'thumbnail' => '缩略图',
 			'views' => '浏览次数',
 			'mtime' => '修改时间',
 			'ctime' => '创建时间',
@@ -89,8 +107,17 @@ class Question extends CActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('title',$this->title,true);
 		$criteria->compare('cate_id',$this->cate_id);
+		$criteria->compare('provice_code',$this->provice_code);
+		$criteria->compare('city_code',$this->city_code);
+		$criteria->compare('area_code',$this->area_code);
+		$criteria->compare('bid_time',$this->bid_time);
+		$criteria->compare('scale',$this->scale,true);
+		$criteria->compare('address',$this->address,true);
+		$criteria->compare('overview',$this->overview,true);
+		$criteria->compare('situation',$this->situation,true);
+		$criteria->compare('completion',$this->completion,true);
 		$criteria->compare('sort',$this->sort);
-		$criteria->compare('content',$this->content,true);
+		$criteria->compare('thumbnail',$this->thumbnail,true);
 		$criteria->compare('views',$this->views);
 		$criteria->compare('mtime',$this->mtime);
 		$criteria->compare('ctime',$this->ctime);
@@ -104,10 +131,17 @@ class Question extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Question the static model class
+	 * @return Projectcase the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
 	}
+
+    public function beforeSave()
+    {
+        $this->mtime = NOW;
+        return true;
+    }
+
 }

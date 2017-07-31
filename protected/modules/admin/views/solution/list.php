@@ -20,9 +20,6 @@
                           </div>
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <!-- <div class="alert alert-success" role="alert">
-                                        DataTables官网：<a target="_blank" href="https://www.datatables.net/">https://www.datatables.net/</a>
-                                    </div> -->
                                     <table id="example" class="table table-striped table-bordered table-hover" cellspacing="0" width="100%">
                                         <thead>
                                         <tr>
@@ -31,27 +28,28 @@
                                             <th>创建时间</th>
                                             <th>发布时间</th>
                                             <th>显示顺序</th>
-                                            <th>发布日期</th>
                                             <th>浏览量</th>
                                             <th></th>
                                         </tr>
                                         </thead>
                                       	
                                         <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>高速方案</td>
-                                            <td>已发布</td>
-                                            <td>2013-08-06 15:06:38</td>
-                                            <td>2013-08-07 00:00:00</td>
-                                            <td>0</td>
-                                            <td>0</td>
-                                            <td>
-                                              <a href="">编辑</a>
-                                              <a href="">删除</a>
-                                            </td>
-                                        </tr>
-                                        
+                                        <?php /** @var Product $product */
+                                        foreach ($productList as $product) {?>
+                                            <tr>
+                                                <td><?php echo $product->id?></td>
+                                                <td><?php echo $product->title?></td>
+                                                <td><?php echo date('Y-m-d H:i:s',$product->ctime)?></td>
+                                                <td><?php echo date('Y-m-d H:i:s',$product->mtime)?></td>
+                                                <td><?php echo $product->sort?></td>
+                                                <td><?php echo $product->views?></td>
+
+                                                <td>
+                                                    <a href="/solution/edit?id=<?php echo $product->id?>">编辑</a>
+                                                    <a href="/solution/delete?id=<?php echo $product->id?>">删除</a>
+                                                </td>
+                                            </tr>
+                                        <?php }?>
                                         </tbody>
                                     </table>
                                 </div>

@@ -36,7 +36,7 @@ class AdminBaseController extends Controller
                 'users' => array('*'),
             ),
             array('allow', // allow authenticated user to perform 'create' and 'update' actions
-                'actions' => array('index', 'nav', 'create', 'update', 'logout'),
+                'actions' => array('index', 'nav', 'create', 'update', 'logout', 'add', 'edit', 'upload'),
                 'users' => array('@'),
             ),
             array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -55,6 +55,7 @@ class AdminBaseController extends Controller
         user()->loginUrl = '/admin/login';
     }
 
+
     public function actionList()
     {
         $this->render('list');
@@ -63,6 +64,30 @@ class AdminBaseController extends Controller
     public function actionAdd()
     {
         $this->render('add');
+    }
+
+    public function actionEdit()
+    {
+        $this->renderJson('add');
+    }
+
+
+    public function actionUpload()
+    {
+        $type = $this->request->getParam('type');
+        $localPath = uploadFile();
+        $reqPath = str_replace('\\', '/', $localPath);
+        $url = $this->request->getHostInfo() . '/' . $reqPath;
+
+        if ($type == 'editor') {
+            $return = array();
+            $return['error'] = 0;
+            $return['message'] = '上传成功';
+            $return['url'] = $reqPath;
+            $this->renderText(json_encode($return));
+        } else {
+            $this->renderJson('success', array('url' => $url));
+        }
     }
 
 

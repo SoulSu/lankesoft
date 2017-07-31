@@ -2,6 +2,16 @@
 <script src="../public/js/vendor/DataTables/js/jquery.dataTables.min.js"></script>
 <script src="../public/js/vendor/DataTables/js/dataTables.bootstrap.min.js"></script>
 
+<?php $this->widget('CLinkPager',array(
+    'header' => '',
+    'firstPageLabel' => '首页',
+    'lastPageLabel' => '最后一页',
+    'prevPageLabel' => '上一页',
+    'nextPageLabel' => '下一页',
+    'pages' => $pages,
+    'maxButtonCount'=>3,
+));?>
+
 <div class="content_wrapper">
 
     <div class="container-fluid">
@@ -36,30 +46,22 @@
                                         </thead>
                                       	
                                         <tbody>
+                                        <?php /** @var Product $product */
+                                        foreach ($productList as $product){
+                                            ?>
                                         <tr>
-                                            <td>1</td>
-                                            <td>屈曲约束支撑（BRB）</td>
-                                            <td>减震演示</td>
-                                            <td>2013-08-06 15:06:38</td>                                     
-                                            <td>39360</td>
+                                            <td><?php echo $product->id?></td>
+                                            <td><?php echo $product->title?></td>
+                                            <td><?php echo $product->cate->name?></td>
+                                            <td><?php echo date('Y-m-d H:i:s',$product->mtime)?></td>
+                                            <td><?php echo $product->views?></td>
                                           
                                             <td>
-                                              <a href="">编辑</a>
-                                              <a href="">删除</a>
+                                                <a href="/productdemo/edit.html?id=<?php echo $product->id?>">编辑</a>
+                                                <a href="/productdemo/delete.html?id=<?php echo $product->id?>">删除</a>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>屈曲约束支撑（BRB）</td>
-                                            <td>软件演示</td>
-                                            <td>2013-08-06 15:06:38</td>                                     
-                                            <td>39360</td>
-                                          
-                                            <td>
-                                              <a href="">编辑</a>
-                                              <a href="">删除</a>
-                                            </td>
-                                        </tr>
+                                        <?php }?>
                                         </tbody>
                                     </table>
                                 </div>

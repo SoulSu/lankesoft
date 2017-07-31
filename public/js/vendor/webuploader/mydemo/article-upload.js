@@ -151,7 +151,7 @@
             swf: '/public/js/vendor/webuploader/dist/Uploader.swf',
             chunked: false,
             chunkSize: 512 * 1024,
-            server: '/public/js/vendor/webuploader/server/fileupload.php',
+            server: '/admin/fileupload.html',
             // runtimeOrder: 'flash',
 
             // accept: {

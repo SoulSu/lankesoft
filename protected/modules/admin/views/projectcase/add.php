@@ -56,11 +56,11 @@
                                             <div class="col-sm-2">
                                                 <select class="form-control" name="category">
                                                    <option value="1">钢框架支撑结构</option>
-																										<option value="2">混凝土框架支撑结构</option>
-																										<option value="3">框架筒体结构</option>
-																										<option value="4">空间结构</option>
-																										<option value="5">结构加固</option>
-																										<option value="6">其他</option>
+                                                    <option value="2">混凝土框架支撑结构</option>
+                                                    <option value="3">框架筒体结构</option>
+                                                    <option value="4">空间结构</option>
+                                                    <option value="5">结构加固</option>
+                                                    <option value="6">其他</option>
                                                 </select>
                                             </div>
                                            
