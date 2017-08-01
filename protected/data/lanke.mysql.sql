@@ -70,7 +70,8 @@ CREATE TABLE `product` (
     `ctime` INT(12) NOT NULL DEFAULT 0 COMMENT '创建时间'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT '产品表 & 产品演示表 & 常见问题';
 
-
+-- 工程案例
+DROP TABLE projectcase;
 CREATE TABLE `projectcase` (
   `id` INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
   `title` varchar(128) NOT NULL DEFAULT '' COMMENT '文章标题',
@@ -78,7 +79,7 @@ CREATE TABLE `projectcase` (
   `provice_code` TINYINT(4) NOT NULL DEFAULT 0 COMMENT '省code',
   `city_code` TINYINT(4) NOT NULL DEFAULT 0 COMMENT '市code',
   `area_code` TINYINT(4) NOT NULL DEFAULT 0 COMMENT '区code',
-  `bid_time` INT(12) NOT NULL DEFAULT 0 COMMENT '中标时间',
+  `bid_time` VARCHAR(32) NOT NULL DEFAULT 0 COMMENT '中标时间',
   `scale` TINYTEXT NOT NULL COMMENT '项目规模',
   `address` TINYTEXT NOT NULL COMMENT '项目地址',
   `overview` TINYTEXT NOT NULL COMMENT '项目概况',

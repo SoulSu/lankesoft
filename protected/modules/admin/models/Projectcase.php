@@ -41,11 +41,11 @@ class Projectcase extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('scale, address, overview, situation, completion', 'required'),
-			array('cate_id, provice_code, city_code, area_code, bid_time, sort, views, mtime, ctime', 'numerical', 'integerOnly'=>true),
+			array('cate_id, provice_code, city_code, area_code, sort, views, mtime, ctime', 'numerical', 'integerOnly'=>true),
+			array('bid_time', 'length', 'max'=>32),
 			array('title, thumbnail', 'length', 'max'=>128),
 			// The following rule is used by search().
-			// @todo Please remove those attributes that should not be searched.
-			array('id, title, cate_id, provice_code, city_code, area_code, bid_time, scale, address, overview, situation, completion, sort, thumbnail, views, mtime, ctime', 'safe', 'on'=>'search'),
+//			array('id, title, cate_id, provice_code, city_code, area_code, bid_time, scale, address, overview, situation, completion, sort, thumbnail, views, mtime, ctime', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -110,7 +110,7 @@ class Projectcase extends CActiveRecord
 		$criteria->compare('provice_code',$this->provice_code);
 		$criteria->compare('city_code',$this->city_code);
 		$criteria->compare('area_code',$this->area_code);
-		$criteria->compare('bid_time',$this->bid_time);
+		$criteria->compare('bid_time',$this->bid_time, true);
 		$criteria->compare('scale',$this->scale,true);
 		$criteria->compare('address',$this->address,true);
 		$criteria->compare('overview',$this->overview,true);

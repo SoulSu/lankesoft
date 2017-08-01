@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33e97233-dce6-451f-9404-b683a2f84028" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/IndexdemoController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/VipController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/VipproductionController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/indexdemo/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/indexdemo/list.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/vip/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/vip/list.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/vipproduction/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/views/vipproduction/list.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/modules/admin/forms/ProjectcaseForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/adminnav.php" afterPath="$PROJECT_DIR$/protected/config/adminnav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/route/admin-route.php" afterPath="$PROJECT_DIR$/protected/modules/admin/route/admin-route.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/data/lanke.mysql.sql" afterPath="$PROJECT_DIR$/protected/data/lanke.mysql.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/controllers/ProjectcaseController.php" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/ProjectcaseController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/forms/AdminForm.php" afterPath="$PROJECT_DIR$/protected/modules/admin/forms/AdminForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/models/Projectcase.php" afterPath="$PROJECT_DIR$/protected/modules/admin/models/Projectcase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/projectcase/add.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/projectcase/add.php" />
     </list>
     <ignored path="lankesoft.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,7 +55,18 @@
     <favorites_list name="lankesoft" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="list.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/indexdemo/list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="79" lean-forward="false" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -101,9 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lankesoftapp/protected/data/lanke.mysql.sql" />
-        <option value="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/views/page/desktop.php" />
-        <option value="$PROJECT_DIR$/lankesoftapp/protected/config/route.php" />
         <option value="$PROJECT_DIR$/lankesoftapp/protected/tests/yield/demo1.php" />
         <option value="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/models/Product.php" />
         <option value="$PROJECT_DIR$/lankesoftapp/protected/modules/admin/controllers/ProductController.php" />
@@ -143,15 +147,18 @@
         <option value="$PROJECT_DIR$/protected/modules/admin/views/solution/list.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/models/Product.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/models/Cate.php" />
-        <option value="$PROJECT_DIR$/protected/data/lanke.mysql.sql" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/models/Projectcase.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/controllers/ProjectcaseController.php" />
-        <option value="$PROJECT_DIR$/protected/modules/admin/views/projectcase/add.php" />
         <option value="$PROJECT_DIR$/protected/config/adminnav.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/controllers/IndexdemoController.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/route/admin-route.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/controllers/VipController.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/controllers/VipproductController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/forms/AdminForm.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/projectcase/add.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/forms/ProjectcaseForm.php" />
+        <option value="$PROJECT_DIR$/protected/data/lanke.mysql.sql" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/models/Projectcase.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/controllers/ProjectcaseController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/indexdemo/list.php" />
       </list>
     </option>
   </component>
@@ -207,11 +214,6 @@
             <path>
               <item name="lankesoft" type="b2602c69:ProjectViewProjectNode" />
               <item name="lankesoft" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_web" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="lankesoft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lankesoft" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -219,6 +221,12 @@
               <item name="lankesoft" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="lankesoft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lankesoft" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="data" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="lankesoft" type="b2602c69:ProjectViewProjectNode" />
@@ -297,7 +305,16 @@
               <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vip" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="productdemo" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="lankesoft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lankesoft" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="projectcase" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="lankesoft" type="b2602c69:ProjectViewProjectNode" />
@@ -326,17 +343,17 @@
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\php\lankesoft\protected\modules\admin\controllers" />
-      <recent name="F:\php\lankesoft\protected\modules\admin\views" />
-      <recent name="F:\php\lankesoft\protected\modules\admin\forms" />
-      <recent name="F:\php\lankesoft\protected\controllers" />
-      <recent name="F:\php\lankesoft\protected\modules\admin\views\product" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\php\lankesoft\protected\modules\admin\components" />
       <recent name="E:\vagrant_data\php\lankesoft" />
       <recent name="F:\php\lankesoft\lankesoftapp\protected\modules\admin\components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\php\lankesoft\protected\modules\admin\forms" />
+      <recent name="F:\php\lankesoft\protected\modules\admin\controllers" />
+      <recent name="F:\php\lankesoft\protected\modules\admin\views" />
+      <recent name="F:\php\lankesoft\protected\controllers" />
+      <recent name="F:\php\lankesoft\protected\modules\admin\views\product" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -460,12 +477,13 @@
       <workItem from="1501205105925" duration="11669000" />
       <workItem from="1501252247039" duration="8563000" />
       <workItem from="1501395501062" duration="14149000" />
-      <workItem from="1501501093575" duration="7074000" />
+      <workItem from="1501501093575" duration="7126000" />
+      <workItem from="1501594376309" duration="5079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94506000" />
+    <option name="totallyTimeSpent" value="99637000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -478,13 +496,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20208333" sideWeight="0.49570817" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20895523" sideWeight="0.49570817" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10989583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11247335" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -495,8 +514,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867885" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -542,43 +561,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/js/vendor/uploadify/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/vendor/webuploader/server/preview.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/vendor/webuploader/server/fileupload2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="171" column="57" lean-forward="true" selection-start-line="17" selection-start-column="74" selection-end-line="171" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/vendor/webuploader/server/fileupload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="155" column="0" lean-forward="true" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/FileController.php" />
     <entry file="file://$PROJECT_DIR$/protected/config/route.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -670,7 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,22 +678,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/productdemo/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="77" column="46" lean-forward="true" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/models/Question.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/models/Question.php" />
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/models/Admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -737,14 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/components/AdminBaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="65" column="29" lean-forward="true" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/question/add.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -765,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
           <caret line="52" column="49" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="52" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,7 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="80" column="135" lean-forward="false" selection-start-line="80" selection-start-column="135" selection-end-line="80" selection-end-column="135" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="42" column="93" lean-forward="false" selection-start-line="42" selection-start-column="93" selection-end-line="42" selection-end-column="93" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -804,22 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
           <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/components/BaseProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/ProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -837,17 +776,8 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="76">
             <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/data/lanke.mysql.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="76" column="57" lean-forward="true" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -863,38 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="130" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/models/Projectcase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="144" column="5" lean-forward="false" selection-start-line="144" selection-start-column="5" selection-end-line="144" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/projectcase/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="51" column="86" lean-forward="true" selection-start-line="51" selection-start-column="86" selection-end-line="51" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/ProjectcaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/indexdemo/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="77" lean-forward="true" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
           <folding />
         </state>
       </provider>
@@ -943,6 +841,155 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/components/AdminIdentity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/data/schema.mysql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/forms/AdminForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="746">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="56" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/components/AdminBaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="65" column="29" lean-forward="true" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/ProjectcaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="106" column="34" lean-forward="false" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/models/Projectcase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="45" column="60" lean-forward="true" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/data/lanke.mysql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="82" column="43" lean-forward="true" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/projectcase/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="144" column="81" lean-forward="false" selection-start-line="144" selection-start-column="81" selection-end-line="144" selection-end-column="81" />
+          <folding>
+            <marker date="1501598207166" expanded="true" signature="5771:6256" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="5933:6129" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="6366:6855" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="6528:6728" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="6966:7471" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="7128:7342" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="7581:8096" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="7749:7967" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="8206:8705" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="8372:8578" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="8815:10618" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="8976:10489" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="9044:10438" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="9120:9500" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="9215:9441" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="9598:10383" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="9677:9922" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="10078:10324" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="10728:11292" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="10890:11165" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="10991:11065" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="11402:11967" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="11567:11840" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="11684:11789" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="12079:12432" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="12163:12385" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="12274:12334" ph="..." />
+            <marker date="1501598207166" expanded="true" signature="12798:12825" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/productdemo/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="41" column="61" lean-forward="false" selection-start-line="36" selection-start-column="51" selection-end-line="41" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/components/BaseProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="106" column="35" lean-forward="true" selection-start-line="96" selection-start-column="8" selection-end-line="106" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/forms/ProjectcaseForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/forms/ProductForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/indexdemo/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="64" lean-forward="true" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/indexdemo/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="79" lean-forward="false" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
           <folding />
         </state>
       </provider>

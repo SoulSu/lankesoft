@@ -4,8 +4,6 @@
 class AdminForm extends CFormModel
 {
 
-    const SESSION_VERIFICATIONCODE = 'verification';
-
     public $username;
 
     public $password;

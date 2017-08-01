@@ -14,7 +14,7 @@
                           <div class="row">
                                 <div class="col-sm-12">
                                     <div class="btn-group" style="margin-bottom:20px;">
-                                        <a class="btn btn-default" href="#index-demo/add.html"><i class="fa fa-file-o"></i>添加首页案例演示</a>
+                                        <a class="btn btn-default" href="#indexdemo/add.html"><i class="fa fa-file-o"></i>添加首页案例演示</a>
                                     </div>
                                 </div>
                           </div>

@@ -10,12 +10,12 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
-      <webServer id="83276aae-3be8-4216-ad70-b45378d46d85" name="lanke-sinaapp" url="http://lksoft.applinzi.com">
-        <fileTransfer host="ftp.sinacloud.com" port="21">
+      <webServer id="83276aae-3be8-4216-ad70-b45378d46d85" name="lanke-sinaapp" url="http://lanke.sc2yun.com/">
+        <fileTransfer host="ftp.sinacloud.com" port="10121">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="21" />
+          <option name="port" value="10121" />
         </fileTransfer>
       </webServer>
     </option>
