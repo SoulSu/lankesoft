@@ -56,6 +56,9 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">类型</label>
                                             <div class="col-sm-2">
+                                                <?php
+                                                $_cate = getModelData($model,'cate', null);
+                                                ?>
                                                 <select class="form-control" name="category">
                                                     <?php /** @var Cate $cate */
                                                     foreach ($cates as $cate) { ?>
@@ -73,7 +76,7 @@
                                             <label class="col-sm-2 control-label">项目中标时间</label>
                                             <div class="col-sm-4">
                                                 <input class="form-control" id="datepicker1" type="text"
-                                                       value="<?php echo date('Y-m-d',getModelData($model,'bid_time')); ?>" name="bid_time">
+                                                       value="<?php echo date('Y-m-d',getModelData($model,'bid_time', time())); ?>" name="bid_time">
                                             </div>
                                             <p class="col-sm-6 help-block">必填</p>
                                         </div>

@@ -14,7 +14,8 @@ $routeNav = array(
     'life',
     'indexdemo',
     'vip',
-    'vipproduction'
+    'vipproduction',
+    'article',
 );
 
 

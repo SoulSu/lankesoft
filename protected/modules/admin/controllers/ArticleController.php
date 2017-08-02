@@ -1,34 +1,49 @@
 <?php
 
-class LifeController extends AdminBaseController
+class ArticleController extends AdminBaseController
 {
+
     public function actionList()
     {
         $pageSize = (int)$this->request->getParam('pageSize');
         $pageSize = max(10, $pageSize);
         $criteria = new CDbCriteria();
         $criteria->order = '`sort` ASC';
-        $count = Life::model()->count($criteria);
+        $count = Article::model()->count($criteria);
 
         $pager = new CPagination($count);
         $pager->pageSize = $pageSize;
         $pager->applyLimit($criteria);
-        $list = Life::model()->findAll($criteria);
-        $this->render('list', array('LifeList' => $list, 'pages' => $pager));
+        $list = Article::model()->findAll($criteria);
+        $this->render('list', array('ArticleList' => $list, 'pages' => $pager));
     }
 
     public function actionAdd()
     {
-        $form = new LifeForm();
+        $form = new ArticleForm();
         $attributes = array();
         $id = $this->request->getPost('id');
 
         if (request()->getIsPostRequest()) {
             $title = $this->request->getPost('title');
+            $cate_id = $this->request->getPost('cate_id');
+            $releasetime = $this->request->getPost('releasetime');
+            $author = $this->request->getPost('author');
+            $describe = $this->request->getPost('describe');
             $thumbnail = $this->request->getPost('thumbnail');
+            $content = $this->request->getPost('content');
             $sort = $this->request->getPost('sort');
+            $ispass = $this->request->getPost('ispass');
+            $views = $this->request->getPost('views');
 
-            $attributes = compact('title', 'sort', 'thumbnail');
+            $attributes = compact(
+                'title',
+                'cate_id', 'releasetime',
+                'author', 'describe',
+                'thumbnail', 'content',
+                'sort', 'ispass',
+                'views'
+            );
 
             $form->setAttributes($attributes);
             if (!$form->validate()) {
@@ -37,11 +52,11 @@ class LifeController extends AdminBaseController
                 }
             }
             // 添加到数据库中
-            $model = Life::model();
+            $model = Article::model();
             $model->setAttributes($attributes);
 
             // 修改
-            if ($id !== null && Life::model()->find('id=?', $id) !== null) {
+            if ($id !== null && Article::model()->find('id=?', $id) !== null) {
                 $model->setAttribute('id', $id);
                 if (!$model->update()) {
                     foreach ($model->getErrors() as $key => $error) {
@@ -59,16 +74,16 @@ class LifeController extends AdminBaseController
             }
             $this->renderJson();
         } else {
-            return $this->render('add', array('form' => $form, 'model' => Life::model()));
+            return $this->render('add', array('form' => $form, 'model' => Article::model()));
         }
     }
 
 
     public function actionEdit()
     {
-        $form = new LifeForm();
+        $form = new ArticleForm();
         $id = $this->request->getParam('id');
-        $model = Life::model()->find('id = ?', $id);
+        $model = Article::model()->find('id = ?', $id);
         if ($model === null) {
             throw new CHttpException(404, '非法请求');
         }
@@ -79,7 +94,7 @@ class LifeController extends AdminBaseController
     public function actionDelete()
     {
         $id = $this->request->getParam('id');
-        $model = Life::model()->find('id = ?', $id);
+        $model = Article::model()->find('id = ?', $id);
         if ($model === null) {
             throw new CHttpException(500, '产品不存在');
         }
@@ -90,5 +105,4 @@ class LifeController extends AdminBaseController
 
         return $this->renderJson();
     }
-
 }

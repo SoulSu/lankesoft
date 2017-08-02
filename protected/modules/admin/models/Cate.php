@@ -23,6 +23,8 @@ class Cate extends CActiveRecord
     const BLACK_CATE_TYPE = 4;
     // 案例
     const PROJECT_CASE_CATE_TYPE = 5;
+    // 文章
+    const ARTICLE_CATE_TYPE = 6;
 
     /**
      * @return string the associated database table name
