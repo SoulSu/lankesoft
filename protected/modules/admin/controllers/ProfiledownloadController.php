@@ -74,7 +74,8 @@ class ProfiledownloadController extends AdminBaseController
             }
             $this->renderJson();
         } else {
-            return $this->render('add', array('form' => $form, 'model' => Profiledownload::model()));
+            $cateList = Cate::model()->getListByType(Cate::PROFILEDOWNLOAD_CATE_TYPE);
+            return $this->render('add', array('form' => $form, 'model' => Profiledownload::model(), 'cates' => $cateList));
         }
     }
 
@@ -87,7 +88,8 @@ class ProfiledownloadController extends AdminBaseController
         if ($model === null) {
             throw new CHttpException(404, '非法请求');
         }
-        return $this->render('add', array('form' => $form, 'model' => $model));
+        $cateList = Cate::model()->getListByType(Cate::PROFILEDOWNLOAD_CATE_TYPE);
+        return $this->render('add', array('form' => $form, 'model' => $model, 'cates' => $cateList));
     }
 
 

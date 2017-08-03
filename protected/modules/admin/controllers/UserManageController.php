@@ -3,5 +3,6 @@
 class UserManageController extends AdminBaseController
 {
 
+    
 
 }

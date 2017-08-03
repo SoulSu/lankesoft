@@ -13,31 +13,31 @@ return <<<REGEXP
     "child": [
       {
         "t": "文章分类",
-        "url": "admin/class/article"
+        "url": "admin/class/article.html?cate_id=6"
       },
       {
         "t": "客户分类",
-        "url": "class/user.html"
+        "url": "admin/class/article.html?cate_id=7"
       },
       {
         "t": "产品分类",
-        "url": "class/product.html"
+        "url": "admin/class/article.html?cate_id=1"
       },
       {
         "t": "演示分类",
-        "url": "class/demo.html"
+        "url": "admin/class/article.html?cate_id=2"
       },
       {
         "t": "问题分类",
-        "url": "class/question.html"
+        "url": "admin/class/article.html?cate_id=3"
       },
       {
         "t": "工程案例分类",
-        "url": "class/case.html"
+        "url": "admin/class/article.html?cate_id=5"
       },
       {
         "t": "资料分类",
-        "url": "class/profile.html"
+        "url": "admin/class/article.html?cate_id=8"
       }
     ]
   },

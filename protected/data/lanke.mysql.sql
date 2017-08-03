@@ -111,7 +111,7 @@ CREATE TABLE `indexdemo`(
 
 -- 资料下载
 DROP TABLE `profiledownload`;
-CREATE CREATE TABLE `profiledownload` (
+CREATE TABLE `profiledownload` (
   `id` INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT '主键',
   `title` varchar(128) NOT NULL DEFAULT '' COMMENT '文章标题',
   `cate_id` TINYINT(4) NOT NULL DEFAULT 0 COMMENT '产品分类',
@@ -157,3 +157,28 @@ CREATE TABLE `article` (
   `mtime` INT(12) NOT NULL DEFAULT 0 COMMENT '修改时间',
   `ctime` INT(12) NOT NULL DEFAULT 0 COMMENT '创建时间'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT '文章';
+
+-- 用户管理
+DROP TABLE `user`;
+CREATE TABLE `user`(
+  `id` INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `nickname` varchar(128) NOT NULL DEFAULT '' COMMENT '用户名',
+  `name` VARCHAR(128) NOT NULL DEFAULT 0 COMMENT '姓名',
+  `password` VARCHAR(32) NOT NULL DEFAULT '' COMMENT '登录密码',
+  `salt` VARCHAR(255) NOT NULL DEFAULT '' COMMENT '密码盐值',
+  `email` VARCHAR(50) NOT NULL DEFAULT '' COMMENT '邮箱',
+  `sex` TINYINT(2) NOT NULL DEFAULT 0 COMMENT '0,1,2 保密，男，女',
+  `bron` INT(12) NOT NULL DEFAULT 0 COMMENT '出生时间',
+  `company` VARCHAR(255) NOT NULL DEFAULT '' COMMENT '公司名称',
+  `company_address` VARCHAR(255) NOT NULL DEFAULT '' COMMENT '公司地址',
+  `company_phone` VARCHAR(255) NOT NULL DEFAULT '' COMMENT '公司电话',
+  `self_address` VARCHAR(255) NOT NULL DEFAULT '' COMMENT '个人地址',
+  `self_phone` VARCHAR(255) NOT NULL DEFAULT '' COMMENT '个人电话',
+  `qq` VARCHAR(32) NOT NULL DEFAULT '' COMMENT 'QQ号码',
+  `msn` VARCHAR(32) NOT NULL DEFAULT '' COMMENT 'MSN号码',
+  `blog` VARCHAR(125) NOT NULL DEFAULT '' COMMENT '博客地址',
+  `id_card` VARCHAR(20) NOT NULL DEFAULT '' COMMENT '省份证',
+  `special_user` TINYINT(2) NOT NULL DEFAULT 0 COMMENT '0,1 是，否 特约用户',
+  `mtime` INT(12) NOT NULL DEFAULT 0 COMMENT '修改时间',
+  `ctime` INT(12) NOT NULL DEFAULT 0 COMMENT '创建时间'
+)ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT '用户管理';

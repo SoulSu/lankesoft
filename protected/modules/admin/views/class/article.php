@@ -13,8 +13,7 @@
                         <div class="row">
                                 <div class="col-sm-12">
                                     <div class="btn-group" style="margin-bottom:20px;">
-                                        <a class="btn btn-default" href="#admin/class/add"><i class="fa
-                                        fa-file-o"></i>添加分类</a>
+                                        <a class="btn btn-default" href="#admin/class/add?cate_id=<?php echo $cate_id;?>"><i class="fa-file-o"></i>添加分类</a>
                                     </div>
                                 </div>
                           </div>
@@ -31,30 +30,16 @@
                                             </tr>
                                             </thead>
                                             <tbody>
+                                            <?php foreach ($lists as $cate){?>
                                             <tr>
-                                                <td>1</td>
-                                                <td>行业新闻</td>
+                                                <td><?php echo $cate->id?></td>
+                                                <td><?php echo $cate->name?></td>
                                                 <td>
-                                                    <a class="btn btn-primary btn-xs">编辑</a>
+                                                    <a class="btn btn-primary btn-xs" href="/admin/class/edit?cate_id=<?php echo $cate_id?>&id=<?php echo $cate->id?>">编辑</a>
                                                     <button class="btn btn-warning btn-xs J_confirm_modal" data-target="../server/ajaxReturn.json" data-tip="一定要删除？" type="button">删除</button>
                                                 </td>
                                             </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>产品快讯</td>
-                                                <td>
-                                                    <a class="btn btn-primary btn-xs">编辑</a>
-                                                    <button class="btn btn-warning btn-xs J_confirm_modal" data-target="../server/ajaxReturn.json" data-tip="一定要删除？" type="button">删除</button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td>蓝科动态</td>
-                                                <td>
-                                                    <a class="btn btn-primary btn-xs">编辑</a>
-                                                    <button class="btn btn-warning btn-xs J_confirm_modal" data-target="../server/ajaxReturn.json" data-tip="一定要删除？" type="button">删除</button>
-                                                </td>
-                                            </tr>
+                                            <?php }?>
                                             </tbody>
                                         </table>
                                     </div>

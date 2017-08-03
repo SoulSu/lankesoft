@@ -25,6 +25,23 @@ class Cate extends CActiveRecord
     const PROJECT_CASE_CATE_TYPE = 5;
     // 文章
     const ARTICLE_CATE_TYPE = 6;
+    // 客户分类
+    const CUSTOMER_CATE_TYPE = 7;
+    // 资料下载
+    const PROFILEDOWNLOAD_CATE_TYPE = 8;
+
+    public static function getAllCate()
+    {
+        return array(
+            self::PROFILEDOWNLOAD_CATE_TYPE => '资料分类',
+            self::PRODUCT_CATE_TYPE => '产品分类',
+            self::PRODUCT_DEMO_CATE_TYPE => '演示分类',
+            self::QUESTION_CATE_TYPE => '问题分类',
+            self::PROJECT_CASE_CATE_TYPE => '工程案例分类',
+            self::ARTICLE_CATE_TYPE => '文章分类',
+            self::CUSTOMER_CATE_TYPE => '客户分类',
+        );
+    }
 
     /**
      * @return string the associated database table name
