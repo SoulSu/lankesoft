@@ -36,18 +36,22 @@
                                         </thead>
                                       	
                                         <tbody>
+                                        <?php
+                                        /** @var Team $list */
+                                        foreach ($TeamList as $list){?>
                                         <tr>
-                                            <td>1</td>
-                                            <td>孙飞飞</td>
-                                            <td>中国建筑学会高层建筑抗震专业委员会委员、中国土木工程学会防震减灾工程技术推广青年专家委员会副主任委员、中国土木工程学会可靠度委员会委员	</td>
-                                            <td>技术顾问 副教授 博导	</td>                                     
-                                            <td>2</td>
+                                            <td><?php echo $list->id?></td>
+                                            <td><?php echo $list->name?></td>
+                                            <td><?php echo $list->position?></td>
+                                            <td><?php echo $list->titles?></td>
+                                            <td><?php echo $list->sort?></td>
                                           
                                             <td>
-                                              <a href="">编辑</a>
-                                              <a href="">删除</a>
+                                              <a href="#team/edit.html?id=<?php echo $list->id?>">编辑</a>
+                                              <a href="#team/delete.html?id=<?php echo $list->id?>">删除</a>
                                             </td>
                                         </tr>
+                                        <?php }?>
                                         
                                         </tbody>
                                     </table>
@@ -58,6 +62,26 @@
                 </aside>
             </div>
         </div>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <!--分页 S-->
+                <div class="pager">
+                    <?php $this->widget('CLinkPagerCustom',array(
+                        'header' => '',
+                        'firstPageLabel' => '首页',
+                        'lastPageLabel' => '最后一页',
+                        'prevPageLabel' => '上一页',
+                        'nextPageLabel' => '下一页',
+                        'pages' => $pages,
+                        'maxButtonCount'=>3,
+                        'htmlOptions' =>array('class'=>''),
+                        'nextPageCssClass' => '',
+                        'previousPageCssClass' => '',
+                    ));?>
+                </div>
+                <!--分页 E-->
+            </div>
+        </div>
     </div>
 
 </div>
@@ -65,6 +89,7 @@
 <script>
     $(document).ready(function () {
         $('#example').DataTable({
+            paging: false,
             /*paging: false,
             lengthChange: false,
             searching: false,

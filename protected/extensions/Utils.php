@@ -41,6 +41,47 @@ abstract class Utils
     }
 
 
+    protected static $area = null;
+
+    protected static function checkArea()
+    {
+        if (static::$area === null) {
+            static::$area = include_once(PROJECT_ROOT_PATH . '/protected/config/area.php');
+        }
+    }
+
+    public static function getArea()
+    {
+        self::checkArea();
+        return static::$area;
+    }
+
+    public static function getProvice()
+    {
+        self::checkArea();
+        $provices = array();
+
+        foreach (self::$area as $key => $value) {
+            $provices[$key] = array(
+                'name' => $value['name'],
+                'sub' => array(),
+            );
+        }
+        ksort($provices);
+        return $provices;
+    }
+
+    public static function getCity($provice)
+    {
+        self::checkArea();
+        $citys = array();
+
+        if (isset(self::$area[$provice])) {
+            $citys = self::$area[$provice];
+        }
+        ksort($citys);
+        return $citys;
+    }
 
 
 }

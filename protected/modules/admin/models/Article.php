@@ -53,8 +53,9 @@ class Article extends CActiveRecord
 	{
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
-		return array(
-		);
+        return array(
+            'cate' => array(self::BELONGS_TO, 'Cate', 'cate_id')
+        );
 	}
 
 	/**
@@ -126,4 +127,10 @@ class Article extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+    public function beforeSave()
+    {
+        $this->mtime = NOW;
+        return true;
+    }
 }

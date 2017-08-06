@@ -4,6 +4,7 @@
 $route = array(
     'urlFormat' => 'path',
     'urlSuffix' => '.html',
+    'showScriptName' => false,
     'rules' => array(
 
         'gii' => 'gii',

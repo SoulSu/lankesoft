@@ -61,7 +61,7 @@ DROP TABLE `product`;
 CREATE TABLE `product` (
     `id` INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
     `title` varchar(128) NOT NULL DEFAULT '' COMMENT '文章标题',
-    `cate_id` TINYINT(4) NOT NULL DEFAULT 0 COMMENT '产品分类',
+    `cate_id` INT(10) NOT NULL DEFAULT 0 COMMENT '产品分类',
     `type` TINYINT(4) NOT NULL DEFAULT 0 COMMENT '分类类型，产品列表|产品演示表|常见问题',
     `keywords` VARCHAR(128) NOT NULL DEFAULT '' COMMENT '关键字',
     `thumbnail` VARCHAR(128) NOT NULL DEFAULT '' COMMENT '缩略图',
@@ -114,7 +114,7 @@ DROP TABLE `profiledownload`;
 CREATE TABLE `profiledownload` (
   `id` INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT '主键',
   `title` varchar(128) NOT NULL DEFAULT '' COMMENT '文章标题',
-  `cate_id` TINYINT(4) NOT NULL DEFAULT 0 COMMENT '产品分类',
+  `cate_id` INT(10) NOT NULL DEFAULT 0 COMMENT '产品分类',
   `sort` INT(10) NOT NULL DEFAULT 0 COMMENT  '排序',
   `filesize` VARCHAR(128) NOT NULL DEFAULT '' COMMENT  '文件大小',
   `fileproperty` VARCHAR(128) NOT NULL DEFAULT '' COMMENT  '文件性质',
@@ -123,7 +123,7 @@ CREATE TABLE `profiledownload` (
   `attach` VARCHAR(255) NOT NULL COMMENT  '文件附件',
   `thumbnail` VARCHAR(128) NOT NULL COMMENT  '缩略图',
   `downloadnums` INT(10) NOT NULL DEFAULT 0 COMMENT  '下载次数',
-  `update` INT(12) NOT NULL COMMENT  '更新日期',
+  `publish_time` INT(12) NOT NULL COMMENT  '发布日期',
   `mtime` INT(12) NOT NULL COMMENT  '最后修改时间',
   `ctime` INT(12) NOT NULL COMMENT  '创建时间'
 )ENGINE=InnoDB DEFAULT CHARSET=utf8  COMMENT '资料下载';
@@ -145,7 +145,7 @@ DROP TABLE `article`;
 CREATE TABLE `article` (
   `id` INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
   `title` varchar(128) NOT NULL DEFAULT '' COMMENT '文章标题',
-  `cate_id` TINYINT(4) NOT NULL DEFAULT 0 COMMENT '产品分类',
+  `cate_id` INT(10) NOT NULL DEFAULT 0 COMMENT '产品分类',
   `releasetime` INT(12) NOT NULL DEFAULT 0 COMMENT '发布日期',
   `author` VARCHAR(32) NOT NULL DEFAULT '' COMMENT '作者',
   `describe` TINYTEXT NOT NULL COMMENT '简介',
@@ -182,3 +182,36 @@ CREATE TABLE `user`(
   `mtime` INT(12) NOT NULL DEFAULT 0 COMMENT '修改时间',
   `ctime` INT(12) NOT NULL DEFAULT 0 COMMENT '创建时间'
 )ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT '用户管理';
+
+
+-- 客户管理
+DROP TABLE `customer`;
+CREATE TABLE `customer` (
+  `id` INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `name` VARCHAR(128) NOT NULL DEFAULT 0 COMMENT '客户名称',
+  `contacter` VARCHAR(32) NOT NULL DEFAULT 0 COMMENT '联系人',
+  `phone` VARCHAR(255) NOT NULL DEFAULT '' COMMENT '联系电话',
+  `fax` VARCHAR(50) NOT NULL DEFAULT '' COMMENT '传真',
+  `address` VARCHAR(255) NOT NULL DEFAULT '' COMMENT '地址',
+  `zip_code` VARCHAR(20) NOT NULL DEFAULT '' COMMENT '邮编',
+  `site` VARCHAR(128) NOT NULL DEFAULT '' COMMENT '网址',
+  `cate_id` INT(10) NOT NULL DEFAULT 0 COMMENT '客户分类',
+  `sort` INT(10) NOT NULL DEFAULT 0 COMMENT '显示顺序',
+  `content` TEXT NOT NULL COMMENT '内容',
+  `mtime` INT(12) NOT NULL DEFAULT 0 COMMENT '修改时间',
+  `ctime` INT(12) NOT NULL DEFAULT 0 COMMENT '创建时间'
+)ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT '客户管理';
+
+-- 团队管理
+DROP TABLE `team`;
+CREATE TABLE `team`(
+  `id` INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `name` VARCHAR(128) NOT NULL DEFAULT 0 COMMENT '姓名',
+  `titles` VARCHAR(128) NOT NULL DEFAULT 0 COMMENT '职称',
+  `position` VARCHAR(128) NOT NULL DEFAULT 0 COMMENT '职位',
+  `phone` VARCHAR(128) NOT NULL DEFAULT 0 COMMENT '照片',
+  `describe` TEXT NOT NULL COMMENT '介绍',
+  `sort` INT(10) NOT NULL DEFAULT 0 COMMENT '显示顺序',
+  `mtime` INT(12) NOT NULL DEFAULT 0 COMMENT '修改时间',
+  `ctime` INT(12) NOT NULL DEFAULT 0 COMMENT '创建时间'
+)ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT '团队管理';

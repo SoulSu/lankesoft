@@ -25,24 +25,24 @@ class ProfiledownloadController extends AdminBaseController
 
         if (request()->getIsPostRequest()) {
             $title = $this->request->getPost('title');
-            $cate_id = $this->request->getPost('cate_id');
+            $cate_id = $this->request->getPost('category');
             $sort = $this->request->getPost('sort');
             $filesize = $this->request->getPost('filesize');
             $fileproperty = $this->request->getPost('fileproperty');
             $describe = $this->request->getPost('describe');
             $content = $this->request->getPost('content');
-            $attach = $this->request->getPost('attach');
-            $thumbnail = $this->request->getPost('thumbnail');
+//            $attach = $this->request->getPost('file');
+            $thumbnail = $this->request->getPost('thumbnail','-');
             $downloadnums = $this->request->getPost('downloadnums');
-            $update = $this->request->getPost('update');
+            $publish_time = $this->request->getPost('publish_time');
 
             $attributes = compact(
                 'title', 'cate_id',
                 'sort', 'filesize',
                 'fileproperty', 'describe',
-                'content', 'attach',
+                'content',
                 'thumbnail', 'downloadnums',
-                'update'
+                'publish_time'
             );
 
             $form->setAttributes($attributes);
@@ -51,12 +51,18 @@ class ProfiledownloadController extends AdminBaseController
                     throw new ValidateException(is_array($error) ? $error[0] : $error);
                 }
             }
+
+            // 文件上传信息
+            $attach = uploadFile('file', 'profile');
+
+
             // 添加到数据库中
             $model = Profiledownload::model();
             $model->setAttributes($attributes);
+            $model->setAttribute('attach', $attach['url']);
 
             // 修改
-            if ($id !== null && Profiledownload::model()->find('id=?', $id) !== null) {
+            if (!empty($id) && Profiledownload::model()->find('id=?', $id) !== null) {
                 $model->setAttribute('id', $id);
                 if (!$model->update()) {
                     foreach ($model->getErrors() as $key => $error) {
@@ -65,6 +71,7 @@ class ProfiledownloadController extends AdminBaseController
                 }
             } else {
                 $model->setAttribute('ctime', NOW);
+                $model->setAttribute('publish_time', strtotime($publish_time));
                 $model->setIsNewRecord(true);
                 if (!$model->save()) {
                     foreach ($model->getErrors() as $key => $error) {

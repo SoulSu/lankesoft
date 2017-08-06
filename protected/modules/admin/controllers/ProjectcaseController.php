@@ -9,7 +9,7 @@ class ProjectcaseController extends AdminBaseController
         $pageSize = max(10, $pageSize);
         $criteria = new CDbCriteria();
         $criteria->order = '`id` ASC';
-        $count = Product::model()->count($criteria);
+        $count = Projectcase::model()->count($criteria);
 
         $pager = new CPagination($count);
         $pager->pageSize = $pageSize;
@@ -50,11 +50,11 @@ class ProjectcaseController extends AdminBaseController
                 }
             }
             // 添加到数据库中
-            $productModel = Product::model();
+            $productModel = Projectcase::model();
             $productModel->setAttributes($attributes);
 
             // 修改
-            if ($id !== null && Projectcase::model()->find('id=?', $id) !== null) {
+            if (!empty($id) && Projectcase::model()->find('id=?', $id) !== null) {
                 $productModel->setAttribute('id', $id);
                 if (!$productModel->update()) {
                     foreach ($productModel->getErrors() as $key => $error) {

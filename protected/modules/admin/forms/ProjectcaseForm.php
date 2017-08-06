@@ -22,7 +22,7 @@ class ProjectcaseForm extends CFormModel
     public function rules()
     {
         return array(
-            array('title, provice_code, city_code, area_code, bid_time, cate_id, scale, address, overview, situation, completion, sort, thumbnail, views', 'required'),
+            array('title, provice_code, city_code, area_code, bid_time, cate_id, scale, address, overview, situation, completion, sort, views', 'required'),
         );
     }
 }

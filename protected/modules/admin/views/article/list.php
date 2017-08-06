@@ -38,20 +38,25 @@
                                         </thead>
                                       	
                                         <tbody>
+
+                                        <?php
+                                        /** @var Article $list */
+                                        foreach ($ArticleList as $list){
+                                        ?>
                                         <tr>
-                                            <td>1</td>
-                                            <td>新闻快讯：蓝科减震参加第四届全国建筑结构技术交流会</td>
-                                            <td>已发布</td>
-                                            <td>新闻快讯</td>
-                                            <td>0</td>
-                                            <td>2011/04/25</td>
-                                            <td>1964</td>
+                                            <td><?php echo $list->id?></td>
+                                            <td><?php echo $list->title?></td>
+                                            <td><?php echo $list->ispass ? '通过':'不通过'?></td>
+                                            <td><?php echo $list->cate->name?></td>
+                                            <td><?php echo $list->sort?></td>
+                                            <td><?php echo date('Y-m-d',$list->releasetime)?></td>
+                                            <td><?php echo $list->views?></td>
                                             <td>
-                                              <a href="">编辑</a>
-                                              <a href="">删除</a>
+                                              <a href="#article/edit.html?id=<?php echo $list->id?>">编辑</a>
+                                              <a href="#article/delete.html?id=<?php echo $list->id?>">删除</a>
                                             </td>
                                         </tr>
-                                        
+                                        <?php }?>
                                         </tbody>
                                     </table>
                                 </div>
@@ -61,6 +66,27 @@
                 </aside>
             </div>
         </div>
+
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <!--分页 S-->
+                <div class="pager">
+                    <?php $this->widget('CLinkPagerCustom',array(
+                        'header' => '',
+                        'firstPageLabel' => '首页',
+                        'lastPageLabel' => '最后一页',
+                        'prevPageLabel' => '上一页',
+                        'nextPageLabel' => '下一页',
+                        'pages' => $pages,
+                        'maxButtonCount'=>3,
+                        'htmlOptions' =>array('class'=>''),
+                        'nextPageCssClass' => '',
+                        'previousPageCssClass' => '',
+                    ));?>
+                </div>
+                <!--分页 E-->
+            </div>
+        </div>
     </div>
 
 </div>
@@ -68,8 +94,8 @@
 <script>
     $(document).ready(function () {
         $('#example').DataTable({
-            /*paging: false,
-            lengthChange: false,
+            paging: false,
+            /*lengthChange: false,
             searching: false,
             ordering: false,
             info: false,*/

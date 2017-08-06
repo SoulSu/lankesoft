@@ -16,11 +16,14 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <form class="form-horizontal" role="form" method="get" action="../server/ajaxReturn.json" data-validate="validate2">
+                                    <form class="form-horizontal" role="form" method="post" action="/article/add.html">
+                                        <?php echo CHtml::errorSummary($form); ?>
+                                        <input type="hidden" name="id" value="<?php echo getModelData($model, 'id') ?>">
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">标题</label>
                                             <div class="col-sm-4">
-                                                <input type="text" class="form-control" placeholder="新闻标题" name="title">
+                                                <input type="text" class="form-control" placeholder="新闻标题" name="title"
+                                                       value="<?php echo getModelData($model, 'title') ?>" />
                                             </div>
                                             <p class="col-sm-6 help-block">必填</p>
                                         </div>
@@ -28,10 +31,16 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">分类</label>
                                             <div class="col-sm-4">
+                                                <?php
+                                                $_cate = getModelData($model,'cate', null);
+                                                ?>
                                                 <select class="form-control" name="category">
-                                                    <option value="0">请选择</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
+                                                    <?php /** @var Cate $cate */
+                                                    foreach ($cates as $cate) { ?>
+                                                        <option value="<?php echo $cate->id; ?>" <?php if ($_cate !== null && $cate->id == $_cate->id){echo "selected='selected'";}?>>
+                                                            <?php echo $cate->name; ?>
+                                                        </option>
+                                                    <?php } ?>
                                                 </select>
                                             </div>
                                             <p class="col-sm-6 help-block">必填</p>
@@ -40,7 +49,8 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">发布日期</label>
                                             <div class="col-sm-4">
-                                              <input type="text" class="form-control" id="datepicker1" value="2016-10-16"/>
+                                              <input type="text" class="form-control" id="datepicker1" name="releasetime"
+                                                     value="<?php echo date('Y-m-d', getModelData($model,'releasetime', time()));?>" />
                                             </div>
                                             <p class="col-sm-6 help-block">必填</p>
                                         </div>
@@ -48,7 +58,7 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">作者</label>
                                             <div class="col-sm-4">
-                                                <input type="text" class="form-control" placeholder="作者" name="author">
+                                                <input type="text" class="form-control" placeholder="作者" name="author" value="<?php echo getModelData($model,'author')?>">
                                             </div>
                                             <p class="col-sm-6 help-block">必填</p>
                                         </div>
@@ -56,7 +66,7 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">简介</label>
                                             <div class="col-sm-4">
-                                                <textarea class="form-control"></textarea>
+                                                <textarea class="form-control" name="describe"><?php echo getModelData($model,'describe')?></textarea>
                                             </div>
                                              <p class="col-sm-6 help-block">必填</p>
                                         </div>
@@ -64,9 +74,6 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">缩略图</label>
                                             <div class="col-sm-4">
-                                              <div class="alert alert-success" role="alert">
-                                                  WebUploader官网：<a target="_blank" href="http://fex.baidu.com/webuploader/">http://fex.baidu.com/webuploader/</a>
-                                              </div>
                                               <div id="uploader">
                                                   <div class="queueList">
                                                       <div id="dndArea" class="placeholder">
@@ -91,7 +98,7 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">内容</label>
                                             <div class="col-sm-9">
-                                                <textarea class="form-control" id="editor"></textarea>
+                                                <textarea class="form-control" id="editor" name="content"><?php echo getModelData($model,'content')?></textarea>
                                             </div>
                                              <p class="col-sm-1 help-block">必填</p>
                                         </div>
@@ -99,7 +106,7 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">显示顺序</label>
                                             <div class="col-sm-4">
-                                                <input type="text" class="form-control" placeholder="显示顺序" name="author">
+                                                <input type="text" class="form-control" placeholder="显示顺序" name="sort" value="<?php echo getModelData($model,'sort')?>">
                                             </div>
                                             <p class="col-sm-6 help-block"></p>
                                         </div>
@@ -109,12 +116,12 @@
                                             <div class="col-sm-4">
                                                 <div class="radio">
                                                     <label>
-                                                        <input type="radio" name="audit" value="1" checked>通过
+                                                        <input type="radio" name="ispass" value="1" <?php echo getModelData($model,'ispass') == 1 ? 'checked' :''?>>通过
                                                     </label>
                                                 </div>
                                                 <div class="radio">
                                                     <label>
-                                                        <input type="radio" name="audit" value="2">未通过
+                                                        <input type="radio" name="ispass" value="0" <?php echo getModelData($model,'ispass') == 0 ? 'checked' :''?>>未通过
                                                     </label>
                                                 </div>
                                             </div>

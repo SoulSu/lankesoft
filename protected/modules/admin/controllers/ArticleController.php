@@ -6,7 +6,7 @@ class ArticleController extends AdminBaseController
     public function actionList()
     {
         $pageSize = (int)$this->request->getParam('pageSize');
-        $pageSize = max(10, $pageSize);
+        $pageSize = max(5, $pageSize);
         $criteria = new CDbCriteria();
         $criteria->order = '`sort` ASC';
         $count = Article::model()->count($criteria);
@@ -22,11 +22,11 @@ class ArticleController extends AdminBaseController
     {
         $form = new ArticleForm();
         $attributes = array();
-        $id = $this->request->getPost('id');
+        $id = $this->request->getPost('id', null);
 
         if (request()->getIsPostRequest()) {
             $title = $this->request->getPost('title');
-            $cate_id = $this->request->getPost('cate_id');
+            $cate_id = $this->request->getPost('category');
             $releasetime = $this->request->getPost('releasetime');
             $author = $this->request->getPost('author');
             $describe = $this->request->getPost('describe');
@@ -56,7 +56,7 @@ class ArticleController extends AdminBaseController
             $model->setAttributes($attributes);
 
             // 修改
-            if ($id !== null && Article::model()->find('id=?', $id) !== null) {
+            if (!empty($id) && Article::model()->find('id=?', $id) !== null) {
                 $model->setAttribute('id', $id);
                 if (!$model->update()) {
                     foreach ($model->getErrors() as $key => $error) {
@@ -65,6 +65,7 @@ class ArticleController extends AdminBaseController
                 }
             } else {
                 $model->setAttribute('ctime', NOW);
+                $model->setAttribute('releasetime',strtotime($attributes['releasetime']));
                 $model->setIsNewRecord(true);
                 if (!$model->save()) {
                     foreach ($model->getErrors() as $key => $error) {
@@ -74,7 +75,11 @@ class ArticleController extends AdminBaseController
             }
             $this->renderJson();
         } else {
-            return $this->render('add', array('form' => $form, 'model' => Article::model()));
+            return $this->render('add', array(
+                'form' => $form,
+                'model' => Article::model(),
+                'cates'=>Cate::model()->getListByType(Cate::ARTICLE_CATE_TYPE),
+            ));
         }
     }
 
@@ -87,7 +92,8 @@ class ArticleController extends AdminBaseController
         if ($model === null) {
             throw new CHttpException(404, '非法请求');
         }
-        return $this->render('add', array('form' => $form, 'model' => $model));
+        return $this->render('add', array('form' => $form, 'model' => $model,
+            'cates'=>Cate::model()->getListByType(Cate::ARTICLE_CATE_TYPE),));
     }
 
 

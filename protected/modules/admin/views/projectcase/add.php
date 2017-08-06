@@ -22,7 +22,7 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">项目名称</label>
                                             <div class="col-sm-4">
-                                                <input class="form-control" name="title" type="text" placeholder="项目名称" value="<?php getModelData($model,'title')?>">
+                                                <input class="form-control" name="title" type="text" placeholder="项目名称" value="<?php echo getModelData($model,'title')?>">
                                             </div>
                                             <p class="col-sm-6 help-block">必填</p>
                                         </div>
@@ -76,7 +76,7 @@
                                             <label class="col-sm-2 control-label">项目中标时间</label>
                                             <div class="col-sm-4">
                                                 <input class="form-control" id="datepicker1" type="text"
-                                                       value="<?php echo date('Y-m-d',getModelData($model,'bid_time', time())); ?>" name="bid_time">
+                                                       value="<?php echo getModelData($model,'bid_time', time()); ?>" name="bid_time">
                                             </div>
                                             <p class="col-sm-6 help-block">必填</p>
                                         </div>

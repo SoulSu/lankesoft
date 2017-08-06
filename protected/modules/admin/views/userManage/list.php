@@ -68,6 +68,7 @@
 <script>
     $(document).ready(function () {
         $('#example').DataTable({
+            paging: false,
             /*paging: false,
             lengthChange: false,
             searching: false,

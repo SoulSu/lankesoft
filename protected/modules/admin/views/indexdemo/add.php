@@ -12,11 +12,12 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <form class="form-horizontal" role="form" method="get" action="../server/ajaxReturn.json" data-validate="validate2">
+                                    <form class="form-horizontal" role="form" method="post" action="/indexdemo/add.html"">
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">案例ID</label>
                                             <div class="col-sm-4">
-                                                <input type="text" class="form-control" placeholder="案例ID" name="title">
+                                                <input type="text" class="form-control" placeholder="案例ID" name="id"
+                                                value="<?php echo getModelData($model,'id')?>" />
                                             </div>
                                             <p class="col-sm-6 help-block">必填</p>
                                         </div>
@@ -24,7 +25,8 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">标题</label>
                                             <div class="col-sm-4">
-                                                <input type="text" class="form-control" placeholder="标题" name="title">
+                                                <input type="text" class="form-control" placeholder="标题" name="title"
+                                                       value="<?php echo getModelData($model,'title')?>" />
                                             </div>
                                             <p class="col-sm-6 help-block">必填</p>
                                         </div>
@@ -56,7 +58,8 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">显示顺序</label>
                                             <div class="col-sm-4">
-                                                <input type="text" class="form-control" placeholder="显示顺序" name="author">
+                                                <input type="text" class="form-control" placeholder="显示顺序" name="sort"
+                                                       value="<?php echo getModelData($model,'sort')?>" />
                                             </div>
                                             <p class="col-sm-6 help-block"></p>
                                         </div>
@@ -64,7 +67,7 @@
                                         <hr/>
                                         <div class="form-group">
                                             <div class="col-sm-offset-2 col-sm-10">
-                                                <button type="button" class="btn btn-primary J_ajaxSubmitBtn">提交</button>
+                                                <button type="submit" class="btn btn-primary J_ajaxSubmitBtn">提交</button>
                                             </div>
                                         </div>
                                     </form>

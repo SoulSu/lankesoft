@@ -45,8 +45,8 @@
                                                 <td><?php echo $product->views?></td>
 
                                                 <td>
-                                                    <a href="/solution/edit?id=<?php echo $product->id?>">编辑</a>
-                                                    <a href="/solution/delete?id=<?php echo $product->id?>">删除</a>
+                                                    <a href="#solution/edit?id=<?php echo $product->id?>">编辑</a>
+                                                    <a href="#solution/delete?id=<?php echo $product->id?>">删除</a>
                                                 </td>
                                             </tr>
                                         <?php }?>
@@ -59,6 +59,26 @@
                 </aside>
             </div>
         </div>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <!--分页 S-->
+                <div class="pager">
+                    <?php $this->widget('CLinkPagerCustom',array(
+                        'header' => '',
+                        'firstPageLabel' => '首页',
+                        'lastPageLabel' => '最后一页',
+                        'prevPageLabel' => '上一页',
+                        'nextPageLabel' => '下一页',
+                        'pages' => $pages,
+                        'maxButtonCount'=>3,
+                        'htmlOptions' =>array('class'=>''),
+                        'nextPageCssClass' => '',
+                        'previousPageCssClass' => '',
+                    ));?>
+                </div>
+                <!--分页 E-->
+            </div>
+        </div>
     </div>
 
 </div>
@@ -66,6 +86,7 @@
 <script>
     $(document).ready(function () {
         $('#example').DataTable({
+            paging: false,
             /*paging: false,
             lengthChange: false,
             searching: false,

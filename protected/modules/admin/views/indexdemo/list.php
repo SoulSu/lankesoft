@@ -20,9 +20,6 @@
                           </div>
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <!-- <div class="alert alert-success" role="alert">
-                                        DataTables官网：<a target="_blank" href="https://www.datatables.net/">https://www.datatables.net/</a>
-                                    </div> -->
                                     <table id="example" class="table table-striped table-bordered table-hover" cellspacing="0" width="100%">
                                         <thead>
                                         <tr>
@@ -35,19 +32,22 @@
                                         </thead>
                                       	
                                         <tbody>
+                                        <?php
+
+                                        /** @var Indexdemo $list */
+                                        foreach ($indexDemoList as $list){
+                                        ?>
                                         <tr>
-                                            <td>1</td>
-                                            <td>1</td>
-                                            <td>减震演示</td>
-                                                                              
-                                            <td>2</td>
-                                          
+                                            <td><?php echo $list->id?></td>
+                                            <td><?php echo $list->id?></td>
+                                            <td><?php echo $list->title?></td>
+                                            <td><?php echo $list->sort?></td>
                                             <td>
-                                              <a href="">编辑</a>
-                                              <a href="">删除</a>
+                                              <a href="#indexdemo/edit.html?id=<?php echo $list->id?>">编辑</a>
+                                              <a href="#indexdemo/delete.html?id=<?php echo $list->id?>">删除</a>
                                             </td>
                                         </tr>
-                                       
+                                       <?php }?>
                                         </tbody>
                                     </table>
                                 </div>
@@ -64,6 +64,7 @@
 <script>
     $(document).ready(function () {
         $('#example').DataTable({
+            paging: false,
             /*paging: false,
             lengthChange: false,
             searching: false,

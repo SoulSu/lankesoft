@@ -16,11 +16,14 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <form class="form-horizontal" data-validate="validate2" role="form" method="get" action="../server/ajaxReturn.json">
+                                    <form class="form-horizontal" method="post" action="profiledownload/add.html" enctype="multipart/form-data">
+                                        <?php echo CHtml::errorSummary($form); ?>
+                                        <input type="hidden" name="id" value="<?php echo getModelData($model, 'id') ?>">
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">标题</label>
                                             <div class="col-sm-4">
-                                                <input class="form-control" name="title" type="text" placeholder="项目名称">
+                                                <input class="form-control" name="title" type="text" placeholder="项目名称"
+                                                       value="<?php echo getModelData($model, 'title') ?>" />
                                             </div>
                                             <p class="col-sm-6 help-block">必填</p>
                                         </div>
@@ -30,8 +33,16 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">分类</label>
                                             <div class="col-sm-2">
+                                                <?php
+                                                $_cate = getModelData($model,'cate', null);
+                                                ?>
                                                 <select class="form-control" name="category">
-                                                   <option value="1">减震资料</option>
+                                                    <?php /** @var Cate $cate */
+                                                    foreach ($cates as $cate) { ?>
+                                                        <option value="<?php echo $cate->id; ?>" <?php if ($_cate !== null && $cate->id == $_cate->id){echo "selected='selected'";}?>>
+                                                            <?php echo $cate->name; ?>
+                                                        </option>
+                                                    <?php } ?>
                                                 </select>
                                             </div>
                                            
@@ -41,7 +52,7 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">简介（用于列表显示）</label>
                                             <div class="col-sm-4">
-                                                <textarea class="form-control"></textarea>
+                                                <textarea class="form-control" name="describe"><?php echo getModelData($model,'describe')?></textarea>
                                             </div>
                                             <p class="col-sm-6 help-block"></p>
 																				</div>
@@ -49,7 +60,8 @@
 																				<div class="form-group">
                                             <label class="col-sm-2 control-label">文件性质</label>
                                             <div class="col-sm-4">
-                                                <input class="form-control" name="title" type="text" placeholder="文件性质">
+                                                <input class="form-control" name="fileproperty" type="text" placeholder="文件性质"
+                                                       value="<?php echo getModelData($model, 'fileproperty') ?>"/>
                                             </div>
                                             <p class="col-sm-6 help-block"></p>
 																				</div>
@@ -57,7 +69,8 @@
 																				<div class="form-group">
                                             <label class="col-sm-2 control-label">文件大小</label>
                                             <div class="col-sm-4">
-                                                <input class="form-control" name="title" type="text" placeholder="文件大小">
+                                                <input class="form-control" name="filesize" type="text" placeholder="文件大小"
+                                                       value="<?php echo getModelData($model, 'filesize') ?>" />
                                             </div>
                                             <p class="col-sm-6 help-block"></p>
                                         </div>
@@ -65,7 +78,7 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">文件介绍</label>
                                             <div class="col-sm-9">
-                                                <textarea class="form-control" id="editor"></textarea>
+                                                <textarea class="form-control" id="editor" name="content"><?php echo getModelData($model, 'content') ?></textarea>
                                             </div>
                                              <p class="col-sm-1 help-block">必填</p>
 																				</div>
@@ -75,9 +88,6 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">缩略图</label>
                                             <div class="col-sm-4">
-                                              <div class="alert alert-success" role="alert">
-                                                  WebUploader官网：<a href="http://fex.baidu.com/webuploader/" target="_blank">http://fex.baidu.com/webuploader/</a>
-                                              </div>
                                               <div id="uploader">
                                                   <div class="queueList">
                                                       <div class="placeholder" id="dndArea">
@@ -102,10 +112,7 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">上传文件</label>
                                             <div class="col-sm-4">
-																							
-																							<input type="file" name="file">
-
-                                          
+                                                <input type="file" name="file">
                                             </div>
                                              <p class="col-sm-6 help-block">必填</p>
                                         </div>
@@ -113,7 +120,8 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">显示顺序</label>
                                             <div class="col-sm-4">
-                                                <input class="form-control" name="author" type="text" placeholder="显示顺序">
+                                                <input class="form-control" name="sort" type="text" placeholder="显示顺序"
+                                                       value="<?php echo getModelData($model, 'sort') ?>" />
                                             </div>
                                             <p class="col-sm-6 help-block"></p>
                                         </div>
@@ -121,7 +129,8 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">下载次数</label>
                                             <div class="col-sm-4">
-                                                <input class="form-control" name="author" type="text" placeholder="" value="0">
+                                                <input class="form-control" name="downloadnums" type="text" placeholder=""
+                                                       value="<?php echo getModelData($model, 'downloadnums') ?>" />
                                             </div>
                                             <p class="col-sm-6 help-block"></p>
                                         </div>
@@ -129,7 +138,8 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">发布日期</label>
                                             <div class="col-sm-4">
-                                              <input type="text" class="form-control" id="datepicker1" value="2016-10-16"/>
+                                              <input type="text" class="form-control" id="datepicker1"
+                                                     value="<?php echo date('Y-m-d', getModelData($model,'publish_time', time()));?>" name="publish_time" />
                                             </div>
                                             <p class="col-sm-6 help-block">必填</p>
                                         </div>
@@ -137,7 +147,7 @@
                                         <hr>
                                         <div class="form-group">
                                             <div class="col-sm-offset-2 col-sm-10">
-                                                <button class="btn btn-primary J_ajaxSubmitBtn" type="button">提交</button>
+                                                <button class="btn btn-primary" type="submit">提交</button>
                                             </div>
                                         </div>
                                     </form>

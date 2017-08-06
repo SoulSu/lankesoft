@@ -16,11 +16,14 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <form class="form-horizontal" role="form" method="get" action="../server/ajaxReturn.json" data-validate="validate2">
+                                    <form class="form-horizontal" role="form" method="post" action="/team/add.html">
+                                        <?php echo CHtml::errorSummary($form); ?>
+                                        <input type="hidden" name="id" value="<?php echo getModelData($model, 'id') ?>">
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">姓名</label>
                                             <div class="col-sm-4">
-                                                <input type="text" class="form-control" placeholder="姓名" name="title">
+                                                <input type="text" class="form-control" placeholder="姓名" name="name"
+                                                       value="<?php echo getModelData($model, 'name') ?>" />
                                             </div>
                                             <p class="col-sm-6 help-block">必填</p>
                                         </div>
@@ -28,7 +31,8 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">职称</label>
                                             <div class="col-sm-4">
-                                                <input type="text" class="form-control" placeholder="职称" name="title">
+                                                <input type="text" class="form-control" placeholder="职称" name="titles"
+                                                       value="<?php echo getModelData($model, 'titles') ?>" />
                                             </div>
                                             <p class="col-sm-6 help-block">必填</p>
                                         </div>
@@ -36,7 +40,8 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">职位</label>
                                             <div class="col-sm-4">
-                                                <input type="text" class="form-control" placeholder="职位" name="title">
+                                                <input type="text" class="form-control" placeholder="职位" name="position"
+                                                       value="<?php echo getModelData($model, 'position') ?>" />
                                             </div>
                                             <p class="col-sm-6 help-block">必填</p>
                                         </div>
@@ -70,7 +75,7 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">介绍</label>
                                             <div class="col-sm-9">
-                                                <textarea class="form-control" id="editor"></textarea>
+                                                <textarea class="form-control" id="editor" name="describe"><?php echo getModelData($model, 'describe') ?></textarea>
                                             </div>
                                              <p class="col-sm-1 help-block"></p>
                                         </div>
@@ -80,7 +85,8 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">显示顺序</label>
                                             <div class="col-sm-4">
-                                                <input type="text" class="form-control" placeholder="显示顺序" name="author">
+                                                <input type="text" class="form-control" placeholder="显示顺序" name="sort"
+                                                       value="<?php echo getModelData($model, 'sort') ?>" />
                                             </div>
                                             <p class="col-sm-6 help-block"></p>
                                         </div>
@@ -88,7 +94,7 @@
                                         <hr/>
                                         <div class="form-group">
                                             <div class="col-sm-offset-2 col-sm-10">
-                                                <button type="button" class="btn btn-primary J_ajaxSubmitBtn">提交</button>
+                                                <button type="submit" class="btn btn-primary J_ajaxSubmitBtn">提交</button>
                                             </div>
                                         </div>
                                     </form>

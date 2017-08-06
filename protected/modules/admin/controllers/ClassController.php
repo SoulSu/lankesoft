@@ -11,11 +11,24 @@ class ClassController extends AdminBaseController
             throw new RuntimeException('分类不存在~');
         }
 
-        $lists = Cate::model()->findAll('`type` = ?', array($cate_id));
+        $pageSize = (int)$this->request->getParam('pageSize');
+        $pageSize = max(5, $pageSize);
+
+        $criteria = new CDbCriteria();
+        $criteria->order = '`id` ASC';
+        $criteria->condition = '`type` = ?';
+        $criteria->params = array($cate_id);
+        $count = Cate::model()->count($criteria);
+
+        $pager = new CPagination($count);
+        $pager->pageSize = $pageSize;
+        $pager->applyLimit($criteria);
+
+        $lists = Cate::model()->findAll($criteria);
         if ($lists === null) {
             $lists = array();
         }
-        $this->render('article', array('cate_id' => $cate_id, 'lists' => $lists));
+        $this->render('article', array('cate_id' => $cate_id, 'lists' => $lists, 'pages' => $pager));
     }
 
     public function actionAdd()
@@ -76,6 +89,28 @@ class ClassController extends AdminBaseController
 
 
         $this->render('add', array('cate_id' => $cate_id, 'model' => $model));
+    }
+
+
+    public function actionDelete()
+    {
+        $id = $this->request->getParam('id');
+        $model = Cate::model()->find('`id` = ?', array($id));
+        if ($model === null) {
+            throw new CHttpException(500, '分类不存在~');
+        }
+
+        // 检查是否有被引用过
+        if ($model->checkCateIsUsed($model->checkCateIsUsed($model->type))) {
+            throw new CHttpException(500, '分类已经被引用，不能删除');
+        }
+
+
+        if (!$model->delete()) {
+            throw new RuntimeException('删除失败');
+        }
+
+        return $this->renderJson();
     }
 
 }

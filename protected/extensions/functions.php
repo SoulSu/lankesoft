@@ -68,7 +68,7 @@ if (!function_exists('uploadFile')) {
      *
      * @param string $formName
      * @param string $dirPrefix
-     * @return string
+     * @return array
      */
     function uploadFile($formName = 'file', $dirPrefix = 'comm')
     {
@@ -83,8 +83,8 @@ if (!function_exists('uploadFile')) {
         }
         @set_time_limit(5 * 60);
 
-        $split = (int)(128 % rand(0, 128));
-        $split1 = (int)(128 % rand(0, 128));
+        $split = (int)(128 % rand(1, 128));
+        $split1 = (int)(128 % rand(1, 128));
 
         $urlPath = 'public' . DIRECTORY_SEPARATOR . 'upload' .
             DIRECTORY_SEPARATOR . $dirPrefix . DIRECTORY_SEPARATOR . $split . DIRECTORY_SEPARATOR . $split1;
@@ -114,8 +114,13 @@ if (!function_exists('uploadFile')) {
             if (!move_uploaded_file($_FILES["file"]["tmp_name"], $filePath)) {
                 throw new RuntimeException('移动上传文件失败');
             }
+        }else{
+            throw new RuntimeException('上传文件为空');
         }
 
-        return $urlPath;
+        return array(
+            'url' =>$urlPath,
+            'originName' => $fileName,
+        );
     }
 }

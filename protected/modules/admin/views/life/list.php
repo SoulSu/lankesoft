@@ -20,35 +20,36 @@
                           </div>
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <!-- <div class="alert alert-success" role="alert">
-                                        DataTables官网：<a target="_blank" href="https://www.datatables.net/">https://www.datatables.net/</a>
-                                    </div> -->
                                     <table id="example" class="table table-striped table-bordered table-hover" cellspacing="0" width="100%">
                                         <thead>
                                         <tr>
                                             <th>ID</th>
                                             <th>标题</th>
                                             <th>缩略图</th>
-                                         
                                             <th>显示顺序</th>
                                             <th></th>
                                         </tr>
                                         </thead>
                                       	
                                         <tbody>
+                                        <?php
+                                        /** @var Life $list */
+                                        foreach ($LifeList as $list){
+                                        ?>
+                                        ?>
                                         <tr>
-                                            <td>1</td>
-                                            <td>1232</td>
+                                            <td><?php echo $list->id?></td>
+                                            <td><?php echo $list->title?></td>
                                             <td>
-                                                <img src="./../../public/images/code.png" alt="">
+                                                <img src="<?php echo $list->thumbnail?>" alt="">
                                             </td>                                   
-                                            <td>2</td>
-                                          
+                                            <td><?php echo $list->sort?></td>
                                             <td>
-                                              <a href="">编辑</a>
-                                              <a href="">删除</a>
+                                              <a href="#life/edit.html?id=<?php echo $list->id;?>">编辑</a>
+                                              <a href="#life/delete.html?id=<?php echo $list->id;?>">删除</a>
                                             </td>
                                         </tr>
+                                        <?php }?>
                                         
                                         </tbody>
                                     </table>
@@ -66,6 +67,7 @@
 <script>
     $(document).ready(function () {
         $('#example').DataTable({
+            paging: false,
             /*paging: false,
             lengthChange: false,
             searching: false,

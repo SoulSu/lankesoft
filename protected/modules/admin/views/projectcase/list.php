@@ -38,19 +38,25 @@
                                         </thead>
                                       	
                                         <tbody>
+                                        <?php
+                                        /** @var Projectcase $list */
+                                        foreach ($productCaseList as $list){
+                                        ?>
                                         <tr>
-                                            <td>1</td>
-                                            <td>哈尔滨万达茂（粘滞阻尼器）	</td>
-                                            <td>其他</td>
-                                            <td>2014年6月15日	</td>
-                                            <td></td>
-                                            <td>2016-07-18 16:31:04	</td>
-                                            <td>447</td>
+                                            <td><?php echo $list->id?></td>
+                                            <td><?php echo $list->title?></td>
+                                            <td><?php $_cate = $list->cate;
+                                                echo empty($_cate) ? '' : $_cate->name ?></td>
+                                            <td><?php echo $list->bid_time?>	</td>
+                                            <td><?php echo $list->scale?></td>
+                                            <td><?php echo date('Y-m-d H:i:s', $list->ctime)?></td>
+                                            <td><?php echo $list->views?></td>
                                             <td>
-                                              <a href="">编辑</a>
-                                              <a href="">删除</a>
+                                              <a href="#projectcase/edit.html?id=<?php echo $list->id?>">编辑</a>
+                                              <a href="#projectcase/delete.html?id=<?php echo $list->id?>">删除</a>
                                             </td>
                                         </tr>
+                                        <?php }?>
                                         </tbody>
                                     </table>
                                 </div>
@@ -60,6 +66,26 @@
                 </aside>
             </div>
         </div>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <!--分页 S-->
+                <div class="pager">
+                    <?php $this->widget('CLinkPagerCustom',array(
+                        'header' => '',
+                        'firstPageLabel' => '首页',
+                        'lastPageLabel' => '最后一页',
+                        'prevPageLabel' => '上一页',
+                        'nextPageLabel' => '下一页',
+                        'pages' => $pages,
+                        'maxButtonCount'=>3,
+                        'htmlOptions' =>array('class'=>''),
+                        'nextPageCssClass' => '',
+                        'previousPageCssClass' => '',
+                    ));?>
+                </div>
+                <!--分页 E-->
+            </div>
+        </div>
     </div>
 
 </div>
@@ -67,6 +93,7 @@
 <script>
     $(document).ready(function () {
         $('#example').DataTable({
+            paging: false,
             /*paging: false,
             lengthChange: false,
             searching: false,

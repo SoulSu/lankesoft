@@ -59,7 +59,7 @@ class User extends CActiveRecord
 			array('id_card', 'length', 'max'=>20),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, nickname, name, password, salt, email, sex, bron, company, company_address, company_phone, self_address, self_phone, qq, msn, blog, id_card, special_user, mtime, ctime', 'safe', 'on'=>'search'),
+//			array('id, nickname, name, password, salt, email, sex, bron, company, company_address, company_phone, self_address, self_phone, qq, msn, blog, id_card, special_user, mtime, ctime', 'safe', 'on'=>'search'),
 		);
 	}
 

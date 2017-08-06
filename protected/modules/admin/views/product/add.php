@@ -22,7 +22,7 @@
                                         <div class="form-group">
                                             <label class="col-sm-2 control-label">产品名称</label>
                                             <div class="col-sm-4">
-                                                <input type="text" class="form-control" placeholder="产品名称" name="title" value="<?php echo getModelData($model, 'title') ?>">
+                                                <input type="text" class="form-control" placeholder="产品名称" name="title" value="<?php echo getModelData($model, 'title') ?>"/>
                                             </div>
                                             <p class="col-sm-6 help-block">必填</p>
                                         </div>

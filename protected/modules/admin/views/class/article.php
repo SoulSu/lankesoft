@@ -36,7 +36,7 @@
                                                 <td><?php echo $cate->name?></td>
                                                 <td>
                                                     <a class="btn btn-primary btn-xs" href="/admin/class/edit?cate_id=<?php echo $cate_id?>&id=<?php echo $cate->id?>">编辑</a>
-                                                    <button class="btn btn-warning btn-xs J_confirm_modal" data-target="../server/ajaxReturn.json" data-tip="一定要删除？" type="button">删除</button>
+                                                    <button class="btn btn-warning btn-xs J_confirm_modal" data-target="/admin/class/delete?id=<?php echo $cate->id?>" data-tip="一定要删除？" type="button">删除</button>
                                                 </td>
                                             </tr>
                                             <?php }?>
@@ -51,14 +51,34 @@
                 </aside>
             </div>
         </div>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <!--分页 S-->
+                <div class="pager">
+                <?php $this->widget('CLinkPagerCustom',array(
+                    'header' => '',
+                    'firstPageLabel' => '首页',
+                    'lastPageLabel' => '最后一页',
+                    'prevPageLabel' => '上一页',
+                    'nextPageLabel' => '下一页',
+                    'pages' => $pages,
+                    'maxButtonCount'=>3,
+                    'htmlOptions' =>array('class'=>''),
+                    'nextPageCssClass' => '',
+                    'previousPageCssClass' => '',
+                ));?>
+                </div>
+                <!--分页 E-->
+            </div>
+        </div>
     </div>
 
 </div>
 <script>
     $(document).ready(function () {
         $('#example').DataTable({
-            /*paging: false,
-            lengthChange: false,
+            paging: false,
+            /*lengthChange: false,
             searching: false,
             ordering: false,
             info: false,*/

@@ -71,6 +71,7 @@ class Controller extends CController
 
     public function renderJson($msg = '操作成功', $data = array())
     {
+        header('Content-type: application/json');
         if (!empty($data)) {
             $this->jsonData->setData($data);
         }

@@ -43,6 +43,33 @@ class Cate extends CActiveRecord
         );
     }
 
+    public function getUsedModelByType($type)
+    {
+        switch ($type) {
+            case self::PRODUCT_CATE_TYPE:
+                return Product::model();
+            case self::PROFILEDOWNLOAD_CATE_TYPE :
+                return Profiledownload::model();
+            case self::PRODUCT_DEMO_CATE_TYPE :
+                return Product::model();
+            case self::QUESTION_CATE_TYPE :
+                return Product::model();
+            case self::PROJECT_CASE_CATE_TYPE :
+                return Projectcase::model();
+            case self::ARTICLE_CATE_TYPE :
+                return Article::model();
+            case self::CUSTOMER_CATE_TYPE :
+                return Customer::model();
+        }
+    }
+
+    public function checkCateIsUsed($type)
+    {
+        $model = $this->getUsedModelByType($type);
+        $res = $model->count('`cate_id` =? ', array($type));
+        return $res !== null;
+    }
+
     /**
      * @return string the associated database table name
      */
