@@ -19,7 +19,8 @@ $route = array(
 );
 
 $adminRoute = require(dirname(__FILE__) . '/../modules/admin/route/admin-route.php');
+$apiRoute = require(dirname(__FILE__) . '/../modules/api/route/api-route.php');
 
-$route['rules'] = array_merge($route['rules'], $adminRoute);
+$route['rules'] = array_merge($route['rules'], $adminRoute, $apiRoute);
 
 return $route;

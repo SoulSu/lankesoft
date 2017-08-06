@@ -72,8 +72,9 @@ return array(
 */
 			),
 		),
+        'cache'=>array( 'class'=>'CFileCache'),
 
-	),
+    ),
 
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']

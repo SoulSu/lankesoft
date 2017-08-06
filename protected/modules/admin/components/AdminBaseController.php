@@ -22,7 +22,16 @@ class AdminBaseController extends Controller
      */
     public $breadcrumbs = array();
 
-
+    /**
+     * @return array action filters
+     */
+    public function filters()
+    {
+        return array(
+            'accessControl', // perform access control for CRUD operations
+            'postOnly + delete', // we only allow deletion via POST request
+        );
+    }
     /**
      * Specifies the access control rules.
      * This method is used by the 'accessControl' filter.
@@ -36,7 +45,11 @@ class AdminBaseController extends Controller
                 'users' => array('*'),
             ),
             array('allow', // allow authenticated user to perform 'create' and 'update' actions
-                'actions' => array('index', 'nav', 'create', 'update', 'logout', 'add', 'edit', 'upload', 'list'),
+                'actions' => array(
+                    'index', 'nav', 'create', 'update',
+                    'logout', 'add', 'edit', 'upload',
+                    'list', 'desktop', 'article'
+                ),
                 'users' => array('@'),
             ),
             array('allow', // allow admin user to perform 'admin' and 'delete' actions

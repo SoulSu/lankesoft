@@ -61,6 +61,16 @@ if (!function_exists('getModelData')) {
     }
 }
 
+if (!function_exists('cache')) {
+    /**
+     * @return CCache
+     */
+    function cache()
+    {
+        return YiiBase::app()->getCache();
+    }
+}
+
 
 if (!function_exists('uploadFile')) {
 
@@ -114,12 +124,12 @@ if (!function_exists('uploadFile')) {
             if (!move_uploaded_file($_FILES["file"]["tmp_name"], $filePath)) {
                 throw new RuntimeException('移动上传文件失败');
             }
-        }else{
+        } else {
             throw new RuntimeException('上传文件为空');
         }
 
         return array(
-            'url' =>$urlPath,
+            'url' => $urlPath,
             'originName' => $fileName,
         );
     }
